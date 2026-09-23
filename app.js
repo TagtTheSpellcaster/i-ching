@@ -170,18 +170,18 @@ function displayOracleResult(hex) {
     <h2>Esagramma Ottenuto: N. ${hex.numero} — ${hex.nome_ita} <span class="ideogram">${ideogram}</span> (${hex.nome_pinyin})</h2>
   `;
 
-  if (trigrams) {
+if (trigrams) {
     html += `
       <div class="trigrams-info">
-        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name}</p>
-        <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.lower.image}<br><em>Significato:</em> ${trigrams.lower.meaning}</p>
-        
         <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name}</p>
         <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.upper.image}<br><em>Significato:</em> ${trigrams.upper.meaning}</p>
+        
+        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name}</p>
+        <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.lower.image}<br><em>Significato:</em> ${trigrams.lower.meaning}</p>
       </div>
     `;
   }
-
+  
   html += `
     <p><strong>Sentenza:</strong> ${hex.sentenza}</p>
     <p><strong>Immagine:</strong> ${hex.immagine}</p>
@@ -239,18 +239,18 @@ function openModal(hex) {
     <h2>${hex.numero}. ${hex.nome_ita} <span class="ideogram">${ideogram}</span> (${hex.nome_pinyin})</h2>
   `;
 
-  if (trigrams) {
+if (trigrams) {
     html += `
       <div class="trigrams-info">
-        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name}</p>
-        <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.lower.image}<br><em>Significato:</em> ${trigrams.lower.meaning}</p>
-        
         <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name}</p>
         <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.upper.image}<br><em>Significato:</em> ${trigrams.upper.meaning}</p>
+        
+        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name}</p>
+        <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.lower.image}<br><em>Significato:</em> ${trigrams.lower.meaning}</p>
       </div>
     `;
   }
-
+  
   html += `
     <p><strong>Sentenza:</strong> ${hex.sentenza}</p>
     <p><strong>Immagine:</strong> ${hex.immagine}</p>

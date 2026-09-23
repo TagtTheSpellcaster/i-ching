@@ -265,4 +265,14 @@ document.getElementById('modal-close').addEventListener('click', () => {
   document.getElementById('modal-detail').classList.add('hidden');
 });
 
+// Chiudi la modale con il tasto ESC da tastiera
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' || e.key === 'Esc') {
+    const modal = document.getElementById('modal-detail');
+    if (modal && !modal.classList.contains('hidden')) {
+      modal.classList.add('hidden');
+    }
+  }
+});
+
 loadHexagrams();

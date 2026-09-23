@@ -1,5 +1,14 @@
 let hexagramsData = [];
 let currentLines = [];
+const ideograms = [
+  "", "乾", "坤", "屯", "蒙", "需", "訟", "師", "比", "小畜", "履",
+  "泰", "否", "同人", "大有", "謙", "豫", "隨", "蠱", "臨", "觀",
+  "噬嗑", "賁", "剝", "復", "無妄", "大畜", "頤", "大過", "坎", "離",
+  "咸", "恆", "遁", "大壯", "晉", "明夷", "家人", "睽", "蹇", "解",
+  "損", "益", "夬", "姤", "萃", "升", "困", "井", "革", "鼎",
+  "震", "艮", "漸", "歸妹", "豐", "旅", "巽", "兌", "渙", "節",
+  "中孚", "小過", "既濟", "未濟"
+];
 
 // Mappa binaria corretta (dal basso verso l'alto: 1=Yang, 0=Yin) -> Numero Esagramma
 const binaryToHexagram = {
@@ -119,13 +128,14 @@ function processOracleResult() {
 
 function displayOracleResult(hex) {
   const resultDiv = document.getElementById('oracle-result');
+  const ideogram = ideograms[hex.numero];
   
   const changingLines = currentLines
     .map((val, idx) => (val === 6 || val === 9) ? idx + 1 : null)
     .filter(val => val !== null);
 
   let html = `
-    <h2>Esagramma Ottenuto: N. ${hex.numero} — ${hex.nome_ita} (${hex.nome_pinyin})</h2>
+    <h2>Esagramma Ottenuto: N. ${hex.numero} — ${hex.nome_ita} <span class="ideogram">${ideogram}</span> (${hex.nome_pinyin})</h2>
     <p><strong>Sentenza:</strong> ${hex.sentenza}</p>
     <p><strong>Immagine:</strong> ${hex.immagine}</p>
     <p>${hex.interpretazione_wiki}</p>
@@ -134,7 +144,6 @@ function displayOracleResult(hex) {
   if (changingLines.length > 0) {
     html += `<h3>Linee Mutanti:</h3><ul>`;
     changingLines.forEach(lineNum => {
-      // Il campo linee_mutanti nel JSON utilizza indici di tipo stringa
       const lineaText = hex.linee_mutanti[lineNum.toString()];
       if (lineaText) {
         html += `<li><strong>Linea ${lineNum}:</strong> ${lineaText}</li>`;
@@ -152,9 +161,10 @@ function renderBrowseGrid(data) {
 
   data.forEach(hex => {
     const card = document.createElement('div');
+    const ideogram = ideograms[hex.numero];
     card.className = 'hexagram-card';
     card.innerHTML = `
-      <h3>${hex.numero}. ${hex.nome_ita}</h3>
+      <h3>${hex.numero}. ${hex.nome_ita} <span class="ideogram">${ideogram}</span></h3>
       <p><em>${hex.nome_pinyin}</em></p>
     `;
     card.addEventListener('click', () => openModal(hex));
@@ -175,9 +185,10 @@ document.getElementById('search-input').addEventListener('input', (e) => {
 function openModal(hex) {
   const modal = document.getElementById('modal-detail');
   const body = document.getElementById('modal-body');
+  const ideogram = ideograms[hex.numero];
   
   body.innerHTML = `
-    <h2>${hex.numero}. ${hex.nome_ita} (${hex.nome_pinyin})</h2>
+    <h2>${hex.numero}. ${hex.nome_ita} <span class="ideogram">${ideogram}</span> (${hex.nome_pinyin})</h2>
     <p><strong>Sentenza:</strong> ${hex.sentenza}</p>
     <p><strong>Immagine:</strong> ${hex.immagine}</p>
     <p><strong>Interpretazione:</strong> ${hex.interpretazione_wiki}</p>

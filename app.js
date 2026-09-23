@@ -266,10 +266,10 @@ document.getElementById('modal-close').addEventListener('click', () => {
 });
 
 // Chiudi la modale con il tasto ESC da tastiera
-document.addEventListener('keydown', (e) => {
+window.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' || e.key === 'Esc') {
     const modal = document.getElementById('modal-detail');
-    if (modal && !modal.classList.contains('hidden')) {
+    if (modal) {
       modal.classList.add('hidden');
     }
   }

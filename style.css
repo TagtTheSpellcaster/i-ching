@@ -56,50 +56,41 @@ main {
   display: block;
 }
 
+/* Contenitore per forzare la centratura e le proporzioni quadrate */
+.hexagram-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
 /* Rendering delle linee degli esagrammi */
 .hexagram-line {
-  height: 16px;
-  margin: 6px 0;
-  background-color: var(--accent-color);
-  border-radius: 2px;
+  width: 140px;
+  height: 18px;
+  margin: 4px 0;
+  background-color: #1a1a1a;
+  
+  /* Simula bordi irregolari e smangiati */
+  border-radius: 2px 8px 3px 7px / 7px 3px 8px 2px;
+  clip-path: polygon(1% 2%, 99% 1%, 98% 98%, 2% 99%);
 }
 
 .hexagram-line.yin {
   background: linear-gradient(
     to right,
-    var(--accent-color) 0%,
-    var(--accent-color) 42%,
+    #1a1a1a 0%,
+    #1a1a1a 42%,
     transparent 42%,
     transparent 58%,
-    var(--accent-color) 58%,
-    var(--accent-color) 100%
+    #1a1a1a 58%,
+    #1a1a1a 100%
   );
 }
 
 .hexagram-line.changing {
-  outline: 2px dashed #d97706;
-}
-
-/* Griglia Esagrammi */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.hexagram-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 6px;
-  padding: 1rem;
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.hexagram-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  outline: 1.5px dashed #1a1a1a;
+  outline-offset: 4px;
 }
 
 /* Modale */

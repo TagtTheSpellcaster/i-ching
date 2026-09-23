@@ -275,4 +275,13 @@ window.addEventListener('keydown', (e) => {
   }
 });
 
+// Registrazione del Service Worker per la PWA
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js')
+      .then((reg) => console.log('Service Worker registrato con successo:', reg.scope))
+      .catch((err) => console.log('Registrazione Service Worker fallita:', err));
+  });
+}
+
 loadHexagrams();

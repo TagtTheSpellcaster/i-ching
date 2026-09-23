@@ -183,3 +183,41 @@ main {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+/* --- PANNELLO ISTRUZIONI --- */
+.instructions-panel {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.instructions-panel summary {
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgba(140, 45, 25, 0.05); /* Sfondo leggero basato sull'accent-color */
+  color: var(--accent-color);
+  user-select: none;
+  list-style-position: inside;
+  transition: background-color 0.2s ease;
+}
+
+.instructions-panel summary:hover {
+  background-color: rgba(140, 45, 25, 0.1);
+}
+
+.instructions-content {
+  padding: 1rem;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.95rem;
+}
+
+.instructions-content p {
+  margin: 0.75rem 0;
+}
+
+.instructions-content strong {
+  color: var(--accent-color);
+}

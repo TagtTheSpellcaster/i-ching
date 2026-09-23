@@ -1,5 +1,20 @@
 let hexagramsData = [];
 let currentLines = [];
+
+const binaryToHexagram = {
+  "111111": 1, "000000": 2, "100010": 3, "010001": 4, "111010": 5, "010111": 6,
+  "010000": 7, "000010": 8, "111011": 9, "110111": 10, "111000": 11, "000111": 12,
+  "101111": 13, "111101": 14, "001000": 15, "000100": 16, "100110": 17, "011001": 18,
+  "110000": 19, "000011": 20, "100101": 21, "101001": 22, "000001": 23, "100000": 24,
+  "100111": 25, "111001": 26, "100001": 27, "011110": 28, "010010": 29, "101101": 30,
+  "001110": 31, "011100": 32, "001111": 33, "111100": 34, "000101": 35, "101000": 36,
+  "101011": 37, "110101": 38, "001010": 39, "010100": 40, "110001": 41, "100011": 42,
+  "111110": 43, "011111": 44, "000110": 45, "011000": 46, "010110": 47, "011010": 48,
+  "101110": 49, "011101": 50, "100100": 51, "001001": 52, "001011": 53, "110100": 54,
+  "101100": 55, "001101": 56, "011011": 57, "110110": 58, "010011": 59, "110010": 60,
+  "110011": 61, "001100": 62, "101010": 63, "010101": 64
+};
+
 const ideograms = [
   "", "乾", "坤", "屯", "蒙", "需", "訟", "師", "比", "小畜", "履",
   "泰", "否", "同人", "大有", "謙", "豫", "隨", "蠱", "臨", "觀",
@@ -21,9 +36,8 @@ const trigramsData = {
   "8": { name: "Duì (兌) — Il Lago / Il Gioioso", image: "Un tratto spezzato sopra due interi.", meaning: "Apertura, comunicazione, gioia condivisa, soddisfazione, scambio sereno." }
 };
 
-// Tabella di corrispondenza fissa: ID Esagramma (1-64) -> [Trigramma Inferiore (1-8), Trigramma Superiore (1-8)]
 const hexagramTrigramsMap = [
-  [], // indice 0 vuoto
+  [],
   [1, 1], [8, 2], [4, 3], [6, 4], [5, 1], [4, 6], [2, 4], [4, 2],
   [5, 7], [7, 8], [2, 1], [1, 2], [1, 5], [5, 8], [7, 2], [3, 8],
   [3, 4], [7, 6], [2, 8], [2, 5], [3, 5], [6, 7], [6, 2], [3, 2],
@@ -37,47 +51,14 @@ const hexagramTrigramsMap = [
 function getHexagramTrigrams(hexNumber) {
   const pair = hexagramTrigramsMap[hexNumber];
   if (!pair) return null;
-
   return {
     lower: trigramsData[pair[0]],
     upper: trigramsData[pair[1]]
   };
 }
 
-// Funzione per ricavare i trigrammi (inferiore e superiore) dal numero dell'esagramma
-function getHexagramTrigrams(hexNumber) {
-  const binaryStr = Object.keys(binaryToHexagram).find(k => binaryToHexagram[k] === hexNumber);
-  if (!binaryStr) return null;
-  
-  // I primi 3 bit (da 0 a 2) formano il trigramma inferiore (interno)
-  // Gli ultimi 3 bit (da 3 a 5) formano il trigramma superiore (esterno)
-  const lowerBits = binaryStr.substring(0, 3);
-  const upperBits = binaryStr.substring(3, 6);
-
-  return {
-    lower: trigramsData[lowerBits],
-    upper: trigramsData[upperBits]
-  };
-}
-
-// Mappa binaria corretta (dal basso verso l'alto: 1=Yang, 0=Yin) -> Numero Esagramma
-const binaryToHexagram = {
-  "111111": 1, "000000": 2, "100010": 3, "010001": 4, "111010": 5, "010111": 6,
-  "010000": 7, "000010": 8, "111011": 9, "110111": 10, "111000": 11, "000111": 12,
-  "101111": 13, "111101": 14, "001000": 15, "000100": 16, "100110": 17, "011001": 18,
-  "110000": 19, "000011": 20, "100101": 21, "101001": 22, "000001": 23, "100000": 24,
-  "100111": 25, "111001": 26, "100001": 27, "011110": 28, "010010": 29, "101101": 30,
-  "001110": 31, "011100": 32, "001111": 33, "111100": 34, "000101": 35, "101000": 36,
-  "101011": 37, "110101": 38, "001010": 39, "010100": 40, "110001": 41, "100011": 42,
-  "111110": 43, "011111": 44, "000110": 45, "011000": 46, "010110": 47, "011010": 48,
-  "101110": 49, "011101": 50, "100100": 51, "001001": 52, "001011": 53, "110100": 54,
-  "101100": 55, "001101": 56, "011011": 57, "110110": 58, "010011": 59, "110010": 60,
-  "110011": 61, "001100": 62, "101010": 63, "010101": 64
-};
-
 async function loadHexagrams() {
   try {
-    // Richiede il nome del file esatto caricato su GitHub
     const response = await fetch('iching_3.json');
     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
     hexagramsData = await response.json();
@@ -124,23 +105,17 @@ document.getElementById('btn-reset').addEventListener('click', () => {
 function renderCurrentLines() {
   const container = document.getElementById('hexagram-building');
   container.innerHTML = '';
-
   const totalLines = currentLines.length;
 
   [...currentLines].reverse().forEach((val, index) => {
-    // Calcola il numero della linea (la prima che hai lanciato è la 1, in basso)
     const lineNum = totalLines - index;
-
-    // Contenitore per allineare numero e linea
     const rowDiv = document.createElement('div');
     rowDiv.className = 'hexagram-row';
 
-    // Div per il numero
     const numDiv = document.createElement('div');
     numDiv.className = 'line-number';
     numDiv.textContent = `${lineNum}.`;
 
-    // Div per la linea
     const lineDiv = document.createElement('div');
     const isYang = (val === 7 || val === 9);
     const isChanging = (val === 6 || val === 9);
@@ -157,10 +132,7 @@ function processOracleResult() {
   document.getElementById('btn-cast').disabled = true;
   const resultDiv = document.getElementById('oracle-result');
 
-  // Estrazione della stringa binaria
   const binaryString = currentLines.map(val => (val === 7 || val === 9) ? '1' : '0').join('');
-  
-  // Ricerca dell'ID tramite la mappa univoca, ignorando il campo struttura_binaria del JSON
   const hexNumber = binaryToHexagram[binaryString];
   
   if (!hexNumber) {
@@ -190,7 +162,7 @@ function displayOracleResult(hex) {
     <h2>Esagramma Ottenuto: N. ${hex.numero} — ${hex.nome_ita} <span class="ideogram">${ideogram}</span> (${hex.nome_pinyin})</h2>
   `;
 
-if (trigrams) {
+  if (trigrams) {
     html += `
       <div class="trigrams-info">
         <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name}</p>
@@ -201,7 +173,7 @@ if (trigrams) {
       </div>
     `;
   }
-  
+
   html += `
     <p><strong>Sentenza:</strong> ${hex.sentenza}</p>
     <p><strong>Immagine:</strong> ${hex.immagine}</p>
@@ -259,7 +231,7 @@ function openModal(hex) {
     <h2>${hex.numero}. ${hex.nome_ita} <span class="ideogram">${ideogram}</span> (${hex.nome_pinyin})</h2>
   `;
 
-if (trigrams) {
+  if (trigrams) {
     html += `
       <div class="trigrams-info">
         <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name}</p>
@@ -270,7 +242,7 @@ if (trigrams) {
       </div>
     `;
   }
-  
+
   html += `
     <p><strong>Sentenza:</strong> ${hex.sentenza}</p>
     <p><strong>Immagine:</strong> ${hex.immagine}</p>
@@ -280,5 +252,9 @@ if (trigrams) {
   body.innerHTML = html;
   modal.classList.remove('hidden');
 }
+
+document.getElementById('modal-close').addEventListener('click', () => {
+  document.getElementById('modal-detail').classList.add('hidden');
+});
 
 loadHexagrams();

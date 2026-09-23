@@ -13,7 +13,7 @@ Applicazione web leggera, responsive e interattiva per la consultazione e il lan
 ## Caratteristiche Principali
 
 * **Simulazione dell'Oracolo (Metodo delle Tre Monete):** Generazione interattiva dell'esagramma linea per linea (dal basso verso l'alto), con calcolo statistico fedele alla tradizione.
-* **Linee Mobili:** Riconoscimento automatico e marcatura visiva delle linee in movimento (Yang/Yin mutanti) con indicazione dei testi specifici associati.
+* **Linee Mobili:** Riconoscimento automatico e marcatura visiva delle linee mutevoli (Yang/Yin mutanti) con indicazione dei testi specifici associati.
 * **Catalogo Completo dei 64 Esagrammi:** Sezione di consultazione rapida con ricerca in tempo reale per numero, nome in italiano o trascrizione Pinyin.
 * **Design Tradizionale e Curato:** Rendering grafico personalizzato delle linee (proporzioni quadrate, tratti irregolari e numerazione posizionale) arricchito dall'inserimento degli ideogrammi cinesi originali e da una delicata filigrana di sfondo con steli di achillea.
 * **Guida Integrata alla Decodifica:** Pannello di istruzioni avanzato con glossario delle figure archetipiche (*Il Nobile*, *Il Re*, *Il Grand'uomo*), dei punti cardinali e delle stagioni.

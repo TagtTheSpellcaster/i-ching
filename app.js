@@ -10,6 +10,33 @@ const ideograms = [
   "中孚", "小過", "既濟", "未濟"
 ];
 
+const trigramsData = {
+  "111": { name: "Qián (Cielo)", meaning: "Il Creativo: forza, movimento inesauribile, leadership." },
+  "110": { name: "Duì (Lago)", meaning: "Il Gioioso: apertura, comunicazione, scambio sereno." },
+  "101": { name: "Lí (Fuoco)", meaning: "Il Luminoso: chiarezza, intelligenza, consapevolezza." },
+  "100": { name: "Zhèn (Tuono)", meaning: "L'Eccitante: scossa, risveglio, dinamismo improvviso." },
+  "011": { name: "Xùn (Vento)", meaning: "Il Mite: flessibilità, penetrazione graduale, diplomazia." },
+  "010": { name: "Kǎn (Acqua)", meaning: "L'Abissale: profondità, fluidità, superamento degli ostacoli." },
+  "001": { name: "Gèn (Montagna)", meaning: "L'Arresto: quiete, stabilità, fermarsi al momento giusto." },
+  "000": { name: "Kūn (Terra)", meaning: "Il Ricettivo: devozione, accoglienza, nutrimento." }
+};
+
+// Funzione per ricavare i trigrammi (inferiore e superiore) dal numero dell'esagramma
+function getHexagramTrigrams(hexNumber) {
+  const binaryStr = Object.keys(binaryToHexagram).find(k => binaryToHexagram[k] === hexNumber);
+  if (!binaryStr) return null;
+  
+  // I primi 3 bit (da 0 a 2) formano il trigramma inferiore (interno)
+  // Gli ultimi 3 bit (da 3 a 5) formano il trigramma superiore (esterno)
+  const lowerBits = binaryStr.substring(0, 3);
+  const upperBits = binaryStr.substring(3, 6);
+
+  return {
+    lower: trigramsData[lowerBits],
+    upper: trigramsData[upperBits]
+  };
+}
+
 // Mappa binaria corretta (dal basso verso l'alto: 1=Yang, 0=Yin) -> Numero Esagramma
 const binaryToHexagram = {
   "111111": 1, "000000": 2, "100010": 3, "010001": 4, "111010": 5, "010111": 6,
@@ -102,6 +129,7 @@ function renderCurrentLines() {
     container.appendChild(rowDiv);
   });
 }
+
 function processOracleResult() {
   document.getElementById('btn-cast').disabled = true;
   const resultDiv = document.getElementById('oracle-result');
@@ -129,6 +157,7 @@ function processOracleResult() {
 function displayOracleResult(hex) {
   const resultDiv = document.getElementById('oracle-result');
   const ideogram = ideograms[hex.numero];
+  const trigrams = getHexagramTrigrams(hex.numero);
   
   const changingLines = currentLines
     .map((val, idx) => (val === 6 || val === 9) ? idx + 1 : null)
@@ -136,6 +165,18 @@ function displayOracleResult(hex) {
 
   let html = `
     <h2>Esagramma Ottenuto: N. ${hex.numero} — ${hex.nome_ita} <span class="ideogram">${ideogram}</span> (${hex.nome_pinyin})</h2>
+  `;
+
+  if (trigrams) {
+    html += `
+      <div class="trigrams-info">
+        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name} — <em>${trigrams.lower.meaning}</em></p>
+        <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name} — <em>${trigrams.upper.meaning}</em></p>
+      </div>
+    `;
+  }
+
+  html += `
     <p><strong>Sentenza:</strong> ${hex.sentenza}</p>
     <p><strong>Immagine:</strong> ${hex.immagine}</p>
     <p>${hex.interpretazione_wiki}</p>
@@ -186,18 +227,29 @@ function openModal(hex) {
   const modal = document.getElementById('modal-detail');
   const body = document.getElementById('modal-body');
   const ideogram = ideograms[hex.numero];
+  const trigrams = getHexagramTrigrams(hex.numero);
   
-  body.innerHTML = `
+  let html = `
     <h2>${hex.numero}. ${hex.nome_ita} <span class="ideogram">${ideogram}</span> (${hex.nome_pinyin})</h2>
+  `;
+
+  if (trigrams) {
+    html += `
+      <div class="trigrams-info">
+        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name} — <em>${trigrams.lower.meaning}</em></p>
+        <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name} — <em>${trigrams.upper.meaning}</em></p>
+      </div>
+    `;
+  }
+
+  html += `
     <p><strong>Sentenza:</strong> ${hex.sentenza}</p>
     <p><strong>Immagine:</strong> ${hex.immagine}</p>
     <p><strong>Interpretazione:</strong> ${hex.interpretazione_wiki}</p>
   `;
+
+  body.innerHTML = html;
   modal.classList.remove('hidden');
 }
-
-document.getElementById('modal-close').addEventListener('click', () => {
-  document.getElementById('modal-detail').classList.add('hidden');
-});
 
 loadHexagrams();

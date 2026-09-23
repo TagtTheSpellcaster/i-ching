@@ -189,7 +189,7 @@ if (trigrams) {
   `;
 
   if (changingLines.length > 0) {
-    html += `<h3>Linee Mutanti:</h3><ul>`;
+    html += `<h3>Linee Mobili:</h3><ul>`;
     changingLines.forEach(lineNum => {
       const lineaText = hex.linee_mutanti[lineNum.toString()];
       if (lineaText) {

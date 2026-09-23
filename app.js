@@ -1,18 +1,34 @@
 let hexagramsData = [];
-let currentLines = []; // Memorizza i valori dei lanci (es. [7, 8, 9, 6, 7, 8])
+let currentLines = [];
 
-// Caricamento dati JSON
+// Mappa binaria corretta (dal basso verso l'alto: 1=Yang, 0=Yin) -> Numero Esagramma
+const binaryToHexagram = {
+  "111111": 1, "000000": 2, "100010": 3, "010001": 4, "111010": 5, "010111": 6,
+  "010000": 7, "000010": 8, "111011": 9, "110111": 10, "111000": 11, "000111": 12,
+  "101111": 13, "111101": 14, "001000": 15, "000100": 16, "100110": 17, "011001": 18,
+  "110000": 19, "000011": 20, "100101": 21, "101001": 22, "000001": 23, "100000": 24,
+  "100111": 25, "111001": 26, "100001": 27, "011110": 28, "010010": 29, "101101": 30,
+  "001110": 31, "011100": 32, "001111": 33, "111100": 34, "000101": 35, "101000": 36,
+  "101011": 37, "110101": 38, "001010": 39, "010100": 40, "110001": 41, "100011": 42,
+  "111110": 43, "011111": 44, "000110": 45, "011000": 46, "010110": 47, "011010": 48,
+  "101110": 49, "011101": 50, "100100": 51, "001001": 52, "001011": 53, "110100": 54,
+  "101100": 55, "001101": 56, "011011": 57, "110110": 58, "010011": 59, "110010": 60,
+  "110011": 61, "001100": 62, "101010": 63, "010101": 64
+};
+
 async function loadHexagrams() {
   try {
-    const response = await fetch('iching_data.json');
+    // Richiede il nome del file esatto caricato su GitHub
+    const response = await fetch('iching_3.json');
+    if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
     hexagramsData = await response.json();
     renderBrowseGrid(hexagramsData);
   } catch (error) {
-    console.error('Errore nel caricamento del JSON:', error);
+    console.error('Errore critico nel caricamento del JSON:', error);
+    document.getElementById('oracle-result').innerHTML = `<p style="color:red">Errore critico: impossibile caricare il file JSON.</p>`;
   }
 }
 
-// Gestione Navigazione Tab
 document.getElementById('btn-oracle').addEventListener('click', (e) => switchTab('oracle', e.target));
 document.getElementById('btn-browse').addEventListener('click', (e) => switchTab('browse', e.target));
 
@@ -23,17 +39,15 @@ function switchTab(tab, btn) {
   btn.classList.add('active');
 }
 
-// Simula il lancio di 3 monete
 document.getElementById('btn-cast').addEventListener('click', () => {
   if (currentLines.length >= 6) return;
 
-  // 3 monete: ciascuna può essere 2 (croce) o 3 (testa)
   const coin1 = Math.random() < 0.5 ? 2 : 3;
   const coin2 = Math.random() < 0.5 ? 2 : 3;
   const coin3 = Math.random() < 0.5 ? 2 : 3;
   const sum = coin1 + coin2 + coin3;
 
-  currentLines.push(sum); // Aggiunge la linea dal basso verso l'alto
+  currentLines.push(sum);
   renderCurrentLines();
 
   if (currentLines.length === 6) {
@@ -45,16 +59,13 @@ document.getElementById('btn-reset').addEventListener('click', () => {
   currentLines = [];
   document.getElementById('hexagram-building').innerHTML = '';
   document.getElementById('oracle-result').innerHTML = '';
-  document.getElementById('coin-results').innerHTML = '';
   document.getElementById('btn-cast').disabled = false;
 });
 
-// Rendering delle linee lanciate
 function renderCurrentLines() {
   const container = document.getElementById('hexagram-building');
   container.innerHTML = '';
 
-  // Rendering invertito per mostrare la prima linea in basso
   [...currentLines].reverse().forEach((val) => {
     const lineDiv = document.createElement('div');
     const isYang = (val === 7 || val === 9);
@@ -65,31 +76,39 @@ function renderCurrentLines() {
   });
 }
 
-// Calcola la struttura binaria ed individua l'esagramma
 function processOracleResult() {
   document.getElementById('btn-cast').disabled = true;
+  const resultDiv = document.getElementById('oracle-result');
 
-  // Converti i lanci in stringa binaria (1 per Yang, 0 per Yin)
-  // Nota: la prima linea in basso corrisponde al primo carattere della stringa
+  // Estrazione della stringa binaria
   const binaryString = currentLines.map(val => (val === 7 || val === 9) ? '1' : '0').join('');
   
-  const hexagram = hexagramsData.find(h => h.struttura_binaria === binaryString);
+  // Ricerca dell'ID tramite la mappa univoca, ignorando il campo struttura_binaria del JSON
+  const hexNumber = binaryToHexagram[binaryString];
+  
+  if (!hexNumber) {
+    resultDiv.innerHTML = `<p style="color:red">Errore logico: la stringa binaria ${binaryString} non ha prodotto corrispondenze valide.</p>`;
+    return;
+  }
+
+  const hexagram = hexagramsData.find(h => h.numero === hexNumber);
 
   if (hexagram) {
     displayOracleResult(hexagram);
+  } else {
+    resultDiv.innerHTML = `<p style="color:red">Errore dati: Esagramma N. ${hexNumber} non trovato nel file JSON.</p>`;
   }
 }
 
 function displayOracleResult(hex) {
   const resultDiv = document.getElementById('oracle-result');
   
-  // Trova eventuali linee mutanti (1-based index)
   const changingLines = currentLines
     .map((val, idx) => (val === 6 || val === 9) ? idx + 1 : null)
     .filter(val => val !== null);
 
   let html = `
-    <h2>Esagramma Otenuto: N. ${hex.numero} — ${hex.nome_ita} (${hex.nome_pinyin})</h2>
+    <h2>Esagramma Ottenuto: N. ${hex.numero} — ${hex.nome_ita} (${hex.nome_pinyin})</h2>
     <p><strong>Sentenza:</strong> ${hex.sentenza}</p>
     <p><strong>Immagine:</strong> ${hex.immagine}</p>
     <p>${hex.interpretazione_wiki}</p>
@@ -98,7 +117,11 @@ function displayOracleResult(hex) {
   if (changingLines.length > 0) {
     html += `<h3>Linee Mutanti:</h3><ul>`;
     changingLines.forEach(lineNum => {
-      html += `<li><strong>Linea ${lineNum}:</strong> ${hex.linee_mutanti[lineNum]}</li>`;
+      // Il campo linee_mutanti nel JSON utilizza indici di tipo stringa
+      const lineaText = hex.linee_mutanti[lineNum.toString()];
+      if (lineaText) {
+        html += `<li><strong>Linea ${lineNum}:</strong> ${lineaText}</li>`;
+      }
     });
     html += `</ul>`;
   }
@@ -106,7 +129,6 @@ function displayOracleResult(hex) {
   resultDiv.innerHTML = html;
 }
 
-// Rendering Modalità Sfoglia
 function renderBrowseGrid(data) {
   const grid = document.getElementById('hexagram-grid');
   grid.innerHTML = '';
@@ -123,7 +145,6 @@ function renderBrowseGrid(data) {
   });
 }
 
-// Gestione Ricerca
 document.getElementById('search-input').addEventListener('input', (e) => {
   const query = e.target.value.toLowerCase();
   const filtered = hexagramsData.filter(h => 
@@ -134,7 +155,6 @@ document.getElementById('search-input').addEventListener('input', (e) => {
   renderBrowseGrid(filtered);
 });
 
-// Modale Dettaglio
 function openModal(hex) {
   const modal = document.getElementById('modal-detail');
   const body = document.getElementById('modal-body');
@@ -152,5 +172,4 @@ document.getElementById('modal-close').addEventListener('click', () => {
   document.getElementById('modal-detail').classList.add('hidden');
 });
 
-// Inizializzazione
 loadHexagrams();

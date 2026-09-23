@@ -25,7 +25,7 @@ body::before {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  opacity: 0.8; /* Regola l'opacità tra 0.03 e 0.06 per la massima delicatezza */
+  /* opacity: 0.8; /* Regola l'opacità tra 0.03 e 0.06 per la massima delicatezza */
   pointer-events: none;
   z-index: -1;
 }

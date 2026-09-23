@@ -42,6 +42,43 @@ nav button.active, nav button:hover {
   color: #fff;
 }
 
+/* Struttura orizzontale per ospitare numero e linea */
+.hexagram-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Stile dei numeri a sinistra */
+.line-number {
+  font-size: 0.9rem;
+  color: #888;
+  width: 15px;
+  text-align: right;
+  user-select: none;
+}
+
+/* --- VARIANTI PER LE LINEE MUTANTI --- */
+
+/* Applica il colore di accento (bordeaux) al tratto intero mutante (Yang) */
+.hexagram-line.changing {
+  background-color: var(--accent-color);
+  outline: 1.5px dashed var(--accent-color);
+}
+
+/* Applica il colore di accento (bordeaux) al tratto spezzato mutante (Yin) */
+.hexagram-line.yin.changing {
+  background: linear-gradient(
+    to right,
+    var(--accent-color) 0%,
+    var(--accent-color) 42%,
+    transparent 42%,
+    transparent 58%,
+    var(--accent-color) 58%,
+    var(--accent-color) 100%
+  );
+}
+
 main {
   max-width: 900px;
   margin: 2rem auto;

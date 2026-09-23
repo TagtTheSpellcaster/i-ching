@@ -18,9 +18,20 @@
 
   <main>
     <!-- SEZIONE ORACOLO -->
+  <!-- SEZIONE ORACOLO -->
     <section id="section-oracle" class="tab-content active">
+      
+      <details class="instructions-panel">
+        <summary>Istruzioni per la consultazione</summary>
+        <div class="instructions-content">
+          <p><strong>1. Il Quesito:</strong> Concentrati su una domanda chiara e aperta. L'I Ching descrive dinamiche e processi, non fornisce risposte binarie (sì/no).</p>
+          <p><strong>2. Il Lancio:</strong> Clicca sul pulsante "Lancia le 3 Monete" per 6 volte. L'algoritmo calcola le probabilità del metodo tradizionale (teste=3, croci=2).</p>
+          <p><strong>3. La Struttura:</strong> L'esagramma viene generato dal basso verso l'alto. La linea 1 costituisce la base, la linea 6 il vertice.</p>
+          <p><strong>4. Le Linee Mutanti:</strong> I tratti evidenziati in rosso indicano un accumulo di energia al suo apice (Yang o Yin mutante). Queste linee specifiche vanno lette con attenzione nel responso, in quanto indicano il punto esatto in cui la situazione sta evolvendo verso un nuovo equilibrio.</p>
+        </div>
+      </details>
+
       <div class="oracle-controls">
-        <p>Concentrati sulla tua domanda, poi lancia le monete per costruire le 6 linee (dal basso verso l'alto).</p>
         <button id="btn-cast" class="btn-primary">Lancia le 3 Monete</button>
         <button id="btn-reset" class="btn-secondary">Nuovo Lancio</button>
       </div>

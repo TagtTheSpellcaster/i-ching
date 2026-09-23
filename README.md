@@ -1,6 +1,6 @@
 # I Ching — Web App
 
-![Version](https://img.shields.io/badge/version-1.0.2-blue)
+![Version](https://img.shields.io/badge/version-1.0.5-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-browser-lightgrey)
 ![Built with HTML](https://img.shields.io/badge/built%20with-HTML%2FCSS%2FJavaScript-orange)

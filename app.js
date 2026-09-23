@@ -11,15 +11,38 @@ const ideograms = [
 ];
 
 const trigramsData = {
-  "111": { name: "Qián (Cielo)", meaning: "Il Creativo: forza, movimento inesauribile, leadership." },
-  "110": { name: "Duì (Lago)", meaning: "Il Gioioso: apertura, comunicazione, scambio sereno." },
-  "101": { name: "Lí (Fuoco)", meaning: "Il Luminoso: chiarezza, intelligenza, consapevolezza." },
-  "100": { name: "Zhèn (Tuono)", meaning: "L'Eccitante: scossa, risveglio, dinamismo improvviso." },
-  "011": { name: "Xùn (Vento)", meaning: "Il Mite: flessibilità, penetrazione graduale, diplomazia." },
-  "010": { name: "Kǎn (Acqua)", meaning: "L'Abissale: profondità, fluidità, superamento degli ostacoli." },
-  "001": { name: "Gèn (Montagna)", meaning: "L'Arresto: quiete, stabilità, fermarsi al momento giusto." },
-  "000": { name: "Kūn (Terra)", meaning: "Il Ricettivo: devozione, accoglienza, nutrimento." }
+  "1": { name: "Qián (Cielo)", meaning: "Il Creativo: forza, movimento inesauribile, leadership." },
+  "2": { name: "Kūn (Terra)", meaning: "Il Ricettivo: devozione, accoglienza, nutrimento." },
+  "3": { name: "Zhèn (Tuono)", meaning: "L'Eccitante: scossa, risveglio, dinamismo improvviso." },
+  "4": { name: "Kǎn (Acqua)", meaning: "L'Abissale: profondità, fluidità, superamento degli ostacoli." },
+  "5": { name: "Lí (Fuoco)", meaning: "Il Luminoso: chiarezza, intelligenza, consapevolezza." },
+  "6": { name: "Gèn (Montagna)", meaning: "L'Arresto: quiete, stabilità, fermarsi al momento giusto." },
+  "7": { name: "Xùn (Vento)", meaning: "Il Mite: flessibilità, penetrazione graduale, diplomazia." },
+  "8": { name: "Duì (Lago)", meaning: "Il Gioioso: apertura, comunicazione, scambio sereno." }
 };
+
+// Tabella di corrispondenza fissa: ID Esagramma (1-64) -> [Trigramma Inferiore (1-8), Trigramma Superiore (1-8)]
+const hexagramTrigramsMap = [
+  [], // indice 0 vuoto
+  [1, 1], [8, 2], [4, 3], [6, 4], [5, 1], [4, 6], [2, 4], [4, 2],
+  [5, 7], [7, 8], [2, 1], [1, 2], [1, 5], [5, 8], [7, 2], [3, 8],
+  [3, 4], [7, 6], [2, 8], [2, 5], [3, 5], [6, 7], [6, 2], [3, 2],
+  [3, 1], [6, 1], [6, 3], [7, 4], [4, 4], [5, 5], [6, 7], [3, 4],
+  [7, 3], [3, 1], [5, 2], [4, 5], [7, 5], [5, 4], [4, 6], [3, 2],
+  [7, 1], [8, 7], [1, 4], [7, 1], [2, 7], [7, 2], [4, 6], [4, 7],
+  [5, 4], [5, 3], [3, 3], [6, 6], [7, 6], [3, 4], [3, 4], [6, 2],
+  [5, 5], [7, 7], [8, 8], [6, 4], [6, 7], [3, 7], [4, 5], [5, 4]
+];
+
+function getHexagramTrigrams(hexNumber) {
+  const pair = hexagramTrigramsMap[hexNumber];
+  if (!pair) return null;
+
+  return {
+    lower: trigramsData[pair[0]],
+    upper: trigramsData[pair[1]]
+  };
+}
 
 // Funzione per ricavare i trigrammi (inferiore e superiore) dal numero dell'esagramma
 function getHexagramTrigrams(hexNumber) {

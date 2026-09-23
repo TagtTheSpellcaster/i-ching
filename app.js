@@ -25,15 +25,16 @@ const ideograms = [
   "中孚", "小過", "既濟", "未濟"
 ];
 
-const trigramsData = {
-  "1": { name: "Qián (乾) — Il Cielo / Il Creativo", image: "Tre linee intere (Yang puro).", meaning: "Forza, movimento inesauribile, creatività, luce, leadership, fermezza." },
-  "2": { name: "Kūn (坤) — La Terra / Il Ricettivo", image: "Tre linee spezzate (Yin puro).", meaning: "Devozione, accoglienza, nutrimento, docilità, la capacità di sostenere." },
-  "3": { name: "Zhèn (震) — Il Tuono / L'Eccitante", image: "Un tratto intero sotto due spezzati.", meaning: "Scossa, movimento improvviso, risveglio, energia che irrompe, dinamismo." },
-  "4": { name: "Kǎn (坎) — L'Acqua / L'Abissale", image: "Un tratto spezzato racchiuso tra due interi.", meaning: "Pericolo, profondità, flusso che supera gli ostacoli, fluidità, prova interiore." },
-  "5": { name: "Lí (離) — Il Fuoco / Il Luminoso", image: "Un tratto spezzato racchiuso tra due interi.", meaning: "Chiarezza, luce, intelligenza, consapevolezza, discernimento." },
-  "6": { name: "Gèn (艮) — La Montagna / L'Arresto", image: "Un tratto intero sopra due spezzati.", meaning: "Quiete, stabilità, fermarsi al momento giusto per evitare la dispersione." },
-  "7": { name: "Xùn (巽) — Il Vento / Il Mite", image: "Un tratto spezzato sotto due interi.", meaning: "Flessibilità, penetrazione graduale e costante, diplomazia, pazienza." },
-  "8": { name: "Duì (兌) — Il Lago / Il Gioioso", image: "Un tratto spezzato sopra due interi.", meaning: "Apertura, comunicazione, gioia condivisa, soddisfazione, scambio sereno." }
+// Mappa diretta dei codici binari a 3 bit dei trigrammi (dal basso verso l'alto)
+const trigramsBitsMap = {
+  "111": { id: "1", name: "Qián (乾) — Il Cielo / Il Creativo", image: "Tre linee intere (Yang puro).", meaning: "Forza, movimento inesauribile, creatività, luce, leadership, fermezza." },
+  "000": { id: "2", name: "Kūn (坤) — La Terra / Il Ricettivo", image: "Tre linee spezzate (Yin puro).", meaning: "Devozione, accoglienza, nutrimento, docilità, la capacità di sostenere." },
+  "001": { id: "3", name: "Zhèn (震) — Il Tuono / L'Eccitante", image: "Un tratto intero sotto due spezzati.", meaning: "Scossa, movimento improvviso, risveglio, energia che irrompe, dinamismo." },
+  "010": { id: "4", name: "Kǎn (Acqua) — L'Abissale", image: "Un tratto spezzato racchiuso tra due interi.", meaning: "Pericolo, profondità, flusso che supera gli ostacoli, fluidità, prova interiore." },
+  "101": { id: "5", name: "Lí (Fuoco) — Il Luminoso", image: "Un tratto spezzato racchiuso tra due interi.", meaning: "Chiarezza, luce, intelligenza, consapevolezza, discernimento." },
+  "100": { id: "6", name: "Gèn (Montagna) — L'Arresto", image: "Un tratto intero sopra due spezzati.", meaning: "Quiete, stabilità, fermarsi al momento giusto per evitare la dispersione." },
+  "011": { id: "7", name: "Xùn (Vento) — Il Mite", image: "Un tratto spezzato sotto due interi.", meaning: "Flessibilità, penetrazione graduale e costante, diplomazia, pazienza." },
+  "110": { id: "8", name: "Duì (Lago) — Il Gioioso", image: "Un tratto spezzato sopra due interi.", meaning: "Apertura, comunicazione, gioia condivisa, soddisfazione, scambio sereno." }
 };
 
 const hexagramTrigramsMap = [
@@ -49,11 +50,18 @@ const hexagramTrigramsMap = [
 ];
 
 function getHexagramTrigrams(hexNumber) {
-  const pair = hexagramTrigramsMap[hexNumber];
-  if (!pair) return null;
+  // Trova la stringa binaria associata a questo numero di esagramma
+  const binaryStr = Object.keys(binaryToHexagram).find(k => binaryToHexagram[k] === hexNumber);
+  if (!binaryStr) return null;
+
+  // I primi 3 caratteri (0, 1, 2) sono il trigramma inferiore
+  const lowerBits = binaryStr.substring(0, 3);
+  // Gli ultimi 3 caratteri (3, 4, 5) sono il trigramma superiore
+  const upperBits = binaryStr.substring(3, 6);
+
   return {
-    lower: trigramsData[pair[0]],
-    upper: trigramsData[pair[1]]
+    lower: trigramsBitsMap[lowerBits],
+    upper: trigramsBitsMap[upperBits]
   };
 }
 

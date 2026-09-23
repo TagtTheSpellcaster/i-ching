@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I Ching — Consultazione e Oracolo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>I Ching — 易經</h1>
+    <nav>
+      <button id="btn-oracle" class="active">Lancia Oracolo</button>
+      <button id="btn-browse">Sfoglia Esagrammi</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SEZIONE ORACOLO -->
+    <section id="section-oracle" class="tab-content active">
+      <div class="oracle-controls">
+        <p>Concentrati sulla tua domanda, poi lancia le monete per costruire le 6 linee (dal basso verso l'alto).</p>
+        <button id="btn-cast" class="btn-primary">Lancia le 3 Monete</button>
+        <button id="btn-reset" class="btn-secondary">Nuovo Lancio</button>
+      </div>
+
+      <!-- Risultato visivo del lancio -->
+      <div id="coin-results"></div>
+      
+      <!-- Visualizzazione delle 6 linee dell'esagramma -->
+      <div id="hexagram-building" class="hexagram-display"></div>
+
+      <!-- Risultato finale dell'esagramma -->
+      <div id="oracle-result"></div>
+    </section>
+
+    <!-- SEZIONE SFOGLIA / RICERCA -->
+    <section id="section-browse" class="tab-content">
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Cerca per numero, nome Pinyin o italiano...">
+      </div>
+      <div id="hexagram-grid" class="grid-container"></div>
+    </section>
+  </main>
+
+  <!-- MODALE DETTAGLIO ESAGRAMMA -->
+  <div id="modal-detail" class="modal hidden">
+    <div class="modal-content">
+      <span id="modal-close" class="close-btn">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

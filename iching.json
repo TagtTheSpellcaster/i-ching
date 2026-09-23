@@ -1,0 +1,1092 @@
+[
+  {
+    "numero": 1,
+    "nome_pinyin": "Qián",
+    "nome_ita": "Il Creativo",
+    "struttura_binaria": "111111",
+    "interpretazione_wiki": "L’esagramma rappresenta il principio creativo puro, la forza ordinatrice del Cielo e l’attività inesauribile che dà inizio e struttura agli eventi. È associato al dinamismo, all’iniziativa e allo spirito di guida che opera senza coercizione ma attraverso la propria eccellenza intrinseca. Nel pensiero dell’I Ching simboleggia il massimo potenziale non ancora limitato dalla forma, la capacità di generare cicli e rinnovamento. Indica un periodo in cui l’energia è favorevole all’azione, purché accompagnata da rettitudine, lungimiranza e disciplina. La sua qualità fondamentale è la perseveranza creativa, che consente di affrontare mutamenti anche complessi mantenendo chiarezza d’intenti e coerenza morale.",
+    "sentenza": "IL CREATIVO opera sublime successo, propiziando attraverso la perseveranza.",
+    "immagine": "Il movimento del cielo è pieno di potenza. Così l'uomo superiore rende se stesso forte e instancabile.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Drago nascosto. Non agire.",
+      "2": "Nove al secondo posto significa: Drago che compare nel campo. Propizio è vedere il grand'uomo.",
+      "3": "Nove al terzo posto significa: Tutto il giorno l'uomo superiore è creativamente attivo. A scendere della notte il suo animo è ancora preda di preoccupazioni. Pericolo. Nessuna macchia.",
+      "4": "Nove al quarto posto significa: Volo oscillante sugli abissi. Nessuna macchia.",
+      "5": "Nove al quinto posto significa: Drago volante nei cieli. Propizio è vedere il grand'uomo.",
+      "6": "Nove in alto significa: Drago arrogante avrà motivo di pentirsi.",
+      "7": "Quando tutte le linee sono nove, significa: Compare un volo di draghi senza testa. Buona fortuna."
+    }
+  },
+  {
+    "numero": 2,
+    "nome_pinyin": "Kūn",
+    "nome_ita": "Il Ricettivo",
+    "struttura_binaria": "000000",
+    "interpretazione_wiki": "L’esagramma incarna la potenza ricettiva della Terra: un principio complementare e necessario a quello creativo del Cielo. Simboleggia la capacità di accogliere, nutrire e dare forma ai potenziali, mostrando forza attraverso la flessibilità e la disponibilità a sostenere senza imporsi. Esorta alla cooperazione, all’umiltà e alla pazienza, evitando iniziative impulsive. Nella tradizione dell’I Ching rappresenta l’ordine naturale che si realizza seguendo le condizioni esistenti e rispettando i cicli. Indica che il progresso nasce dall’aderire alla realtà, senza resistenza ma con fermezza interiore.",
+    "sentenza": "IL RICETTIVO opera sublime successo, propiziando attraverso la perseveranza di una giumenta. Se l'uomo superiore intraprende qualcosa e cerca di guidare, si smarrisce; ma se segue, trova la guida. È favorevole trovare amici a ovest e a sud, rinunciare agli amici a est e a nord. La quieta perseveranza reca buona fortuna.",
+    "immagine": "La condizione della terra è devozione ricettiva. Così l'uomo superiore che ha larghezza di carattere porta il mondo esterno.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Quando c'è brina sotto i piedi, il ghiaccio solido non è lontano.",
+      "2": "Sei al secondo posto significa: Dritto, squadrato, grande. Senza intenzione, eppure nulla resta non propiziato.",
+      "3": "Sei al terzo posto significa: Linee nascoste. Si è in grado di rimanere perseveranti. Se per caso sei al servizio di un re, non cercare opere, ma porta a compimento.",
+      "4": "Sei al quarto posto significa: Un sacco chiuso. Nessuna macchia, nessuna lode.",
+      "5": "Sei al quinto posto significa: Una veste inferiore gialla reca suprema buona fortuna.",
+      "6": "Sei in alto significa: Draghi combattono nel prato. Il loro sangue è nero e giallo.",
+      "7": "Quando tutte le linee sono sei, significa: La perseveranza duratura è propizia."
+    }
+  },
+  {
+    "numero": 3,
+    "nome_pinyin": "Zhūn",
+    "nome_ita": "Difficoltà all'Inizio",
+    "struttura_binaria": "100010",
+    "interpretazione_wiki": "Questo esagramma descrive la fase primordiale in cui un nuovo sviluppo emerge in mezzo al caos. Le forze sono presenti ma non ancora organizzate, e ciò genera tensione, incertezza e bisogno di guida. L’I Ching insegna che tali condizioni sono naturali all’inizio di ogni impresa significativa: richiedono stabilizzazione, strategia e sostegno reciproco. Il progresso avviene con prudenza e capacità di adattarsi alle circostanze mutevoli.",
+    "sentenza": "DIFFICOLTÀ ALL'INIZIO opera supremo successo, propiziando attraverso la perseveranza. Nulla dovrebbe essere intrapreso. È propizio nominare degli aiutanti.",
+    "immagine": "Nuvole e tuono: l'immagine della DIFFICOLTÀ ALL'INIZIO. Così l'uomo superiore porta ordine dalla confusione.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Esitazione e impedimento. È propizio rimanere perseveranti. È propizio nominare degli aiutanti.",
+      "2": "Sei al secondo posto significa: Le difficoltà si accumulano. Cavallo e carro si separano. Egli non è un ladro; vuole corteggiare quando verrà il momento. La fanciulla è casta, non si impegna. Dieci anni, poi si impegna.",
+      "3": "Sei al terzo posto significa: Chi caccia il cervo senza il guardaboschi si smarrisce soltanto nella foresta. L'uomo superiore comprende i segni del tempo e preferisce desistere. Andare avanti reca umiliazione.",
+      "4": "Sei al quarto posto significa: Cavallo e carro si separano. Sforzati per l'unione. Andare reca buona fortuna. Tutto agisce in modo propizio.",
+      "5": "Nove al quinto posto significa: Difficoltà nel benedire. Una piccola perseveranza reca buona fortuna. Una grande perseveranza reca sfortuna.",
+      "6": "Sei in alto significa: Cavallo e carro si separano. Scorrono lacrime di sangue."
+    }
+  },
+  {
+    "numero": 4,
+    "nome_pinyin": "Méng",
+    "nome_ita": "Follia Giovanile",
+    "struttura_binaria": "010001",
+    "interpretazione_wiki": "Rappresenta l’inesperienza, la mancanza di orientamento e la necessità di apprendimento. Non è un difetto, bensì una condizione da cui può nascere la maturità se accompagnata da disciplina e guida corretta. L’esagramma ammonisce contro l’ostinazione e la superficialità, indicando che la conoscenza cresce attraverso domande appropriate e ascolto attento.",
+    "sentenza": "LA FOLLIA GIOVANILE ha successo. Non sono io a cercare il giovane folle; il giovane folle cerca me. Al primo oracolo lo informo. Se chiede due o tre volte, è importunità. Se importuna, non do alcuna informazione. La perseveranza propizia.",
+    "immagine": "Una sorgente sgorga ai piedi della montagna: l'immagine della GIOVINEZZA. Così l'uomo superiore coltiva il suo carattere con la scrupolosità in tutto ciò che fa.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Per far sviluppare un folle è propizio applicare la disciplina. I ceppi dovrebbero essere rimossi. Continuare in questo modo reca umiliazione.",
+      "2": "Nove al secondo posto significa: Sopportare i folli con gentilezza reca buona fortuna. Sapere come prendere le donne reca buona fortuna. Il figlio è capace di farsi carico della famiglia.",
+      "3": "Sei al third posto significa: Non prendere una fanciulla che, quando vede un uomo di bronzo, perde il controllo di sé. Nulla è propizio.",
+      "4": "Sei al quarto posto significa: La follia intrappolata reca umiliazione.",
+      "5": "Sei al quinto posto significa: La follia infantile reca buona fortuna.",
+      "6": "Nove in alto significa: Nel punire la follia non è propizio commettere trasgressioni. L'unica cosa propizia è prevenire le trasgressioni."
+    }
+  },
+  {
+    "numero": 5,
+    "nome_pinyin": "Xū",
+    "nome_ita": "L'Attesa (Nutrimento)",
+    "struttura_binaria": "111010",
+    "interpretazione_wiki": "Simbolo della pazienza attiva. Le condizioni esterne non sono ancora favorevoli all’azione; ciò richiede preparazione, calma e fiducia nei tempi naturali. L’acqua sopra il cielo indica la presenza di potenzialità in sospensione. L’I Ching suggerisce che un’attesa ben condotta rafforza la posizione e permette di agire con efficacia quando giunge il momento giusto.",
+    "sentenza": "L'ATTESA. Se sei sincero, hai luce e successo. La perseveranza reca buona fortuna. È propizio attraversare la grande acqua.",
+    "immagine": "Le nuvole salgono al cielo: l'immagine dell'ATTESA. Così l'uomo superiore mangia e beve, è gioioso e di buon umore.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Attesa nel prato. È propizio dimorare in ciò che dura. Nessuna macchia.",
+      "2": "Nove al secondo posto significa: Attesa sulla sabbia. C'è qualche pettegolezzo. La fine reca buona fortuna.",
+      "3": "Nove al terzo posto significa: L'attesa nel fango provoca l'arrivo del nemico.",
+      "4": "Sei al quarto posto significa: Attesa nel sangue. Esci dalla fossa.",
+      "5": "Nove al quinto posto significa: Attesa con cibo e bevande. La perseveranza reca buona fortuna.",
+      "6": "Sei in alto significa: Si cade nella fossa. Arrivano tre ospiti non invitati. Onorali, e alla fine ci sarà buona fortuna."
+    }
+  },
+  {
+    "numero": 6,
+    "nome_pinyin": "Sòng",
+    "nome_ita": "La Lite",
+    "struttura_binaria": "010111",
+    "interpretazione_wiki": "Indica il sorgere di conflitti dovuti a incomprensioni, interessi contrapposti o mancanza di chiarezza. L’esagramma raccomanda prudenza e ricorso a un’autorità imparziale quando necessario. La vittoria in un litigio non porta benefici duraturi; la vera soluzione deriva dal ristabilire equilibrio e responsabilità condivisa.",
+    "sentenza": "LA LITE. Tu sei sincero e vieni ostacolato. Un prudente arresto a metà strada reca buona fortuna. Portare la cosa fino alla fine reca sfortuna. È propizio vedere il grand'uomo. Non è propizio attraversare la grande acqua.",
+    "immagine": "Il cielo e l'acqua vanno in direzioni opposte: l'immagine della LITE. Così in tutte le sue transazioni l'uomo superiore considera attentamente l'inizio.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Se non si perpetua la faccenda, vi è un piccolo pettegolezzo. Alla fine giunge la buona fortuna.",
+      "2": "Nove al secondo posto significa: Non si può ingaggiare lite; si torna a casa, si cede. La gente della sua città, trecento famiglie, rimane libera da colpa.",
+      "3": "Sei al terzo posto significa: Nutrirsene dell'antica virtù induce perseveranza. Pericolo. Alla fine giunge la buona fortuna. Se per caso sei al servizio di un re, non cercare opere.",
+      "4": "Nove al quarto posto significa: Non si può ingaggiare lite. Si torna indietro e ci si sottomette al fato, si cambia atteggiamento e si trova pace nella perseveranza. Buona fortuna.",
+      "5": "Nove al quinto posto significa: Contendere davanti a lui reca suprema buona fortuna.",
+      "6": "Nove in alto significa: Anche se per caso viene elargita una cintura di cuoio, entro la fine di un mattino essa verrà strappata via tre volte."
+    }
+  },
+  {
+    "numero": 7,
+    "nome_pinyin": "Shī",
+    "nome_ita": "L'Esercito",
+    "struttura_binaria": "000010",
+    "interpretazione_wiki": "Rappresenta organizzazione collettiva, disciplina e capacità di guidare un gruppo verso un obiettivo comune. L’I Ching sottolinea che l’autorità deve essere esercitata con integrità e moderazione. La forza del gruppo è efficace quando è fondata su fiducia, chiarezza di ruoli e coesione interna.",
+    "sentenza": "L'ESERCITO. L'esercito necessita di perseveranza e di un uomo forte. Buona fortuna senza macchia.",
+    "immagine": "Nel mezzo della terra vi è l'acqua: l'immagine dell'ESERCITO. Così l'uomo superiore accresce le sue masse con la generosità verso il popolo.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Un esercito deve muoversi in buon ordine. Se l'ordine non è buono, la sfortuna minaccia.",
+      "2": "Nove al secondo posto significa: Nel mezzo dell'esercito. Buona fortuna. Nessuna macchia. Il re conferisce una triplice decorazione.",
+      "3": "Sei al terzo posto significa: Forse l'esercito trasporta cadaveri sul carro. Sfortuna.",
+      "4": "Sei al quarto posto significa: L'esercito si ritira. Nessuna macchia.",
+      "5": "Sei al quinto posto significa: Vi è selvaggina nel campo. È propizio catturarla. Nessuna macchia. Lascia che sia il più anziano a guidare l'esercito; il più giovane trasporta cadaveri: allora la perseveranza reca sfortuna.",
+      "6": "Sei in alto significa: Il grande principe emette comandi, fonda stati, investe le famiglie di feudi. Gli individui inferiori non dovrebbero essere impiegati."
+    }
+  },
+  {
+    "numero": 8,
+    "nome_pinyin": "Bì",
+    "nome_ita": "L'Unione (Il Tenersi Insieme)",
+    "struttura_binaria": "010000",
+    "interpretazione_wiki": "Esprime unione, cooperazione e adesione spontanea a un centro morale o a una guida legittima. La solidarietà non si ottiene per imposizione ma attraverso sincerità e valori condivisi. Favorisce imprese collettive, purché si mantengano lealtà e chiarezza nelle relazioni.",
+    "sentenza": "L'UNIONE reca buona fortuna. Interroga ancora l'oracolo per sapere se possiedi sublimità, costanza e perseveranza; allora non vi è macchia. Coloro che sono incerti si uniscono gradualmente. Chi arriva troppo tardi incontra la sfortuna.",
+    "immagine": "Sulla terra vi è l'acqua: l'immagine dell'UNIONE. Così i re dell'antichità concessero i diversi stati come feudi e coltivarono relazioni amichevoli con i signori feudali.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Tieniti stretto a lui in verità e lealtà; questo è senza macchia. La verità, come una piena ciotola di terra: così alla fine la buona fortuna giunge dall'esterno.",
+      "2": "Sei al secondo posto significa: Tieniti stretto a lui interiormente. La perseveranza reca buona fortuna.",
+      "3": "Sei al terzo posto significa: Ti tieni unito con le persone sbagliate.",
+      "4": "Sei al quarto posto significa: Tieniti stretto a lui anche esteriormente. La perseveranza reca buona fortuna.",
+      "5": "Nove al quinto posto significa: Manifestazione dell'unione. Nella caccia il re usa battitori su tre soli lati e rinuncia alla selvaggina che fugge in avanti. I cittadini non hanno bisogno di avvertimento. Buona fortuna.",
+      "6": "Sei in alto significa: Non trova alcuna testa per l'unione. Sfortuna."
+    }
+  },
+  {
+    "numero": 9,
+    "nome_pinyin": "Xiǎo Chù",
+    "nome_ita": "La Forza Domatrice del Piccolo",
+    "struttura_binaria": "110111",
+    "interpretazione_wiki": "Descrive un periodo in cui il progresso è modesto ma stabile. Influenze leggere accumulano lentamente risultati positivi. L’esagramma valorizza moderazione, autocontrollo e continuità quotidiana come strumenti di crescita duratura.",
+    "sentenza": "LA FORZA DOMATRICE DEL PICCOLO ha successo. Nuvole dense, nessuna pioggia dalla nostra regione occidentale.",
+    "immagine": "Il vento soffia attraverso il cielo: l'immagine della FORZA DOMATRICE DEL PICCOLO. Così l'uomo superiore affina l'aspetto esteriore della sua natura.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Ritorna alla via. Come potrebbe esservi colpa in ciò? Buona fortuna.",
+      "2": "Nove al secondo posto significa: Si lascia trascinare al ritorno. Buona fortuna.",
+      "3": "Nove al terzo posto significa: I raggi si staccano dalle ruote del carro. Marito e moglie si guardano in cagnesco.",
+      "4": "Sei al quarto posto significa: Se sei sincero, il sangue svanisce e la paura si dilegua. Nessuna macchia.",
+      "5": "Nove al quinto posto significa: Se sei sincero e lealmente attaccato, sei ricco nel tuo vicino.",
+      "6": "Nove in alto significa: La pioggia arriva, vi è quiete. Ciò è dovuto all'effetto duraturo del carattere. La perseveranza porta la donna in pericolo. La luna è quasi piena. Se l'uomo superiore persiste, sopraggiunge la sfortuna."
+    }
+  },
+  {
+    "numero": 10,
+    "nome_pinyin": "Lǚ",
+    "nome_ita": "Il Procedere (La Condotta)",
+    "struttura_binaria": "111011",
+    "interpretazione_wiki": "Simbolo di un avanzare delicato, come camminare sulla coda della tigre senza provocarla. Richiede rispetto, correttezza e piena consapevolezza del contesto. La buona condotta è la chiave per evitare rischi e mantenere integrità durante il progresso.",
+    "sentenza": "IL PROCEDERE. Calpestare la coda della tigre. Essa non morde l'uomo. Successo.",
+    "immagine": "Il cielo sopra, il lago sotto: l'immagine del PROCEDERE. Così l'uomo superiore discrimina tra alto e basso, e fortifica così il pensiero del popolo.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Semplice condotta. Progresso senza macchia.",
+      "2": "Nove al secondo posto significa: Percorrere un corso liscio e livellato. La perseveranza di un uomo oscuro reca buona fortuna.",
+      "3": "Sei al terzo posto significa: Un orbo è capace di vedere, uno zoppo è capace di camminare. Calpesta la coda della tigre. La tigre morde l'uomo. Sfortuna. Così agisce un guerriero per il suo grande principe.",
+      "4": "Nove al quarto posto significa: Calpesta la coda della tigre. Cautela e circospezione conducono infine alla buona fortuna.",
+      "5": "Nove al quinto posto significa: Condotta risoluta. Perseveranza con consapevolezza del pericolo.",
+      "6": "Nove in alto significa: Guarda alla tua condotta e soppesa i segni favorevoli. Quando tutto è compiuto, giunge la suprema buona fortuna."
+    }
+  },
+  {
+    "numero": 11,
+    "nome_pinyin": "Tài",
+    "nome_ita": "La Pace",
+    "struttura_binaria": "111000",
+    "interpretazione_wiki": "L’esagramma 泰 rappresenta una condizione di armonia tra forze complementari, nella quale il Cielo e la Terra comunicano liberamente. Simboleggia prosperità, equilibrio sociale e cooperazione costruttiva. La sua immagine suggerisce un flusso ordinato di energie: ciò che è superiore si china per sostenere ciò che è inferiore, e ciò che è inferiore si eleva con umiltà verso ciò che è superiore. In questo clima avviene un consolidamento naturale della comunità e dei progetti condivisi. L’I Ching insegna che, durante i periodi di pace, è necessario rinforzare strutture, stabilire regole giuste e coltivare la virtù, così da prepararsi ai cicli futuri. La pace non è uno stato statico, ma un equilibrio dinamico che va preservato con cura, moderazione e lungimiranza.",
+    "sentenza": "PACE. Il piccolo se ne va, il grande si avvicina. Buona fortuna. Successo.",
+    "immagine": "Il cielo e la terra si uniscono: l'immagine della PACE. Così il sovrano divide e completa il corso di cielo e terra, e così aiuta il popolo.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Quando si estirpa l'erba gramigna, la zolla viene via con essa. Ciascuno secondo la sua specie. Le imprese recano buona fortuna.",
+      "2": "Nove al secondo posto significa: Sopportare gli inculti con gentilezza, guadare il fiume con risolutione, non trascurare ciò che è distante, non guardare ai propri compagni: così si riesce a camminare nel mezzo.",
+      "3": "Nove al terzo posto significa: Non vi è pianura non seguita da un pendio. Non vi è andata non seguita da un ritorno. Colui che rimane perseverante nel pericolo è senza macchia.",
+      "4": "Sei al quarto posto significa: Discende fluttuando, senza vantarsi della sua ricchezza, insieme al suo vicino, senza inganno e sincero.",
+      "5": "Sei al quinto posto significa: Il sovrano I dà sua figlia in sposa. Suprema buona fortuna.",
+      "6": "Sei in alto significa: Il muro ricade nel fossato. Non usare alcun esercito ora. Rendi noti i tuoi comandi entro la tua città. La perseveranza reca umiliazione."
+    }
+  },
+  {
+    "numero": 12,
+    "nome_pinyin": "Pǐ",
+    "nome_ita": "Il Ristagno (L'Impasse)",
+    "struttura_binaria": "000111",
+    "interpretazione_wiki": "L’esagramma descrive una situazione di blocco, chiusura e interruzione dei rapporti tra livelli superiori e inferiori. Le energie non circolano e ciò genera isolamento, decadimento e ostilità latente. In tale fase è inutile forzare il cambiamento: l’I Ching consiglia di ritirarsi interiormente, mantenere integrità morale e ridurre ciò che è superfluo. Il ristagno non è segno di fallimento, ma una condizione ciclica in cui si purificano contenuti e intenzioni. Agire con precipitazione peggiora il quadro; è preferibile distinguere ciò che può essere salvato da ciò che va lasciato decadere. Preparare il ritorno dell’ordine richiede calma, discrezione e capacità di riconoscere limiti e necessità del momento.",
+    "sentenza": "RISTAGNO. La gente malvagia non favorisce la perseveranza dell'uomo superiore. Il grande se ne va; il piccolo si avvicina.",
+    "immagine": "Il cielo e la terra non si uniscono: l'immagine del RISTAGNO. Così l'uomo superiore si rifugia nel suo valore interiore per sfuggire alle difficoltà.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Quando si estirpa l'erba gramigna, la zolla viene via con essa. Ciascuno secondo la sua specie. La perseveranza reca buona fortuna e successo.",
+      "2": "Sei al secondo posto significa: Sopportano e resistono; ciò significa buona fortuna per la gente inferiore. Il ristagno serve ad aiutare il grand'uomo a conseguire il successo.",
+      "3": "Sei al terzo posto significa: Sopportano la vergogna.",
+      "4": "Nove al quarto posto significa: Colui che agisce per comando del sommo rimane senza macchia. Coloro che hanno lo stesso pensiero partecipano alla benedizione.",
+      "5": "Nove al quinto posto significa: Il ristagno sta cedendo. Buona fortuna per il grand'uomo. 'Che fare se fallisce, che fare se fallisce?' In questo modo lo lega a un cespuglio di gelsi.",
+      "6": "Nove in alto significa: Il ristagno giunge alla fine. Prima ristagno, poi buona fortuna."
+    }
+  },
+  {
+    "numero": 13,
+    "nome_pinyin": "Tōng Rén",
+    "nome_ita": "Comunanza con gli Uomini",
+    "struttura_binaria": "101111",
+    "interpretazione_wiki": "Esprime la forza della cooperazione umana fondata su intenti comuni e trasparenza. L’immagine del fuoco sopra il cielo indica apertura, visibilità e unione attraverso ideali condivisi. L’esagramma invita a cercare alleanze tra individui capaci di agire in modo equo e sincero, poiché solo una comunità autentica produce risultati duraturi. Non vi è spazio per rivalità segrete o interessi nascosti: la chiarezza relazionale è indispensabile. La Compagnia dell’Uomo favorisce progetti collettivi che richiedono coordinamento e fiducia reciproca. L’I Ching sottolinea l’importanza di una leadership capace di includere, non di dominare. L’unità nasce dall’allineamento etico, non dalla costrizione.",
+    "sentenza": "COMUNANZA CON GLI UOMINI all'aperto. Successo. È propizio attraversare la grande acqua. La perseveranza dell'uomo superiore propizia.",
+    "immagine": "Il cielo insieme al fuoco: l'immagine della COMUNANZA CON GLI UOMINI. Così l'uomo superiore organizza i clan e fa distinzioni tra le cose.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Comunanza con gli uomini alla porta. Nessuna macchia.",
+      "2": "Sei al secondo posto significa: Comunanza con gli uomini nel clan. Umiliazione.",
+      "3": "Nove al terzo posto significa: Nasconde armi nel boschetto; sale sull'alta collina di fronte. Per tre anni non si alza.",
+      "4": "Nove al quarto posto significa: Si arrampica sul suo muro; non può attaccare. Buona fortuna.",
+      "5": "Nove al quinto posto significa: Uomini legati in comunanza prima piangono e lamentano, ma dopo ridono. Dopo grandi lotte riescono a incontrarsi.",
+      "6": "Nove in alto significa: Comunanza con gli uomini nel prato. Nessun rimorso."
+    }
+  },
+  {
+    "numero": 14,
+    "nome_pinyin": "Dà Yǒu",
+    "nome_ita": "Il Possesso in Grande Misura",
+    "struttura_binaria": "111101",
+    "interpretazione_wiki": "Rappresenta abbondanza, prestigio e influenza positiva. Il fuoco sopra il cielo indica una luce stabile che illumina e ordina ciò che tocca. La grandezza di cui parla l’esagramma non è mero possesso materiale, ma una qualità della persona o della comunità che sa gestire risorse con generosità e responsabilità. La vera ricchezza deriva dalla capacità di mantenere equilibrio e integrità mentre si esercita potere. L’I Ching avverte che l’abbondanza può degenerare in arroganza se non temperata da modestia e discernimento. L’orientamento corretto permette di irradiare benefici e sostenere chi è in posizione più debole, consolidando così un ordine armonioso e duraturo.",
+    "sentenza": "POSSESSO IN GRANDE MISURA. Supremo successo.",
+    "immagine": "Fuoco nel cielo sopra: l'immagine del POSSESSO IN GRANDE MISURA. Così l'uomo superiore frena il male e favorisce il bene, obbedendo così alla benevola volontà del cielo.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Nessuna relazione con ciò che è nocivo; non vi è macchia in questo. Se si rimane consapevoli della difficoltà, si rimane senza macchia.",
+      "2": "Nove al secondo posto significa: Un grosso carro da carico. Si può intraprendere qualcosa. Nessuna macchia.",
+      "3": "Nove al terzo posto significa: Un principe lo offre al Figlio del Cielo. Un uomo meschino non può fare questo.",
+      "4": "Nove al quarto posto significa: Fa una differenza tra sé e il suo vicino. Nessuna macchia.",
+      "5": "Sei al quinto posto significa: Colui la cui verità è accessibile, eppure dignitosa, ha buona fortuna.",
+      "6": "Nove in alto significa: Egli è benedetto dal cielo. Buona fortuna. Nulla che non propizi."
+    }
+  },
+  {
+    "numero": 15,
+    "nome_pinyin": "Qián",
+    "nome_ita": "La Modestia",
+    "struttura_binaria": "000100",
+    "interpretazione_wiki": "La modestia è vista come una forza equilibrante che evita eccessi e conflitti. L’immagine della montagna sopra la terra suggerisce contenimento e sobrietà: ciò che è elevato non opprime, ma sostiene ciò che è più basso. L’esagramma elogia la capacità di riconoscere i propri limiti e di agire con misura. La virtù modesta non è debolezza, bensì potenza controllata che crea stabilità e rispetto. L’I Ching afferma che la modestia porta fortuna perché consente di adattarsi ai mutamenti e di ottenere cooperazione genuina. In ambito sociale o politico, essa favorisce soluzioni equilibrate e relazioni costruttive.",
+    "sentenza": "LA MODESTIA crea successo. L'uomo superiore porta le cose a compimento.",
+    "immagine": "All'interno della terra, una montagna: l'immagine della MODESTIA. Così l'uomo superiore riduce ciò che è troppo e accresce ciò che è troppo poco; pesa le cose e le rende uguali.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Un uomo superiore modesto riguardo alla sua modestia può attraversare la grande acqua. Buona fortuna.",
+      "2": "Sei al secondo posto significa: Modestia che giunge all'espressione. La perseveranza reca buona fortuna.",
+      "3": "Nove al terzo posto significa: Un uomo superiore di modestia e merito porta le cose a conclusione. Buona fortuna.",
+      "4": "Sei al quarto posto significa: Nulla che non propizi la modestia nel movimento.",
+      "5": "Sei al quinto posto significa: Nessun vanto di ricchezza davanti al proprio vicino. È favorevole attaccare con forza. Nulla che non propizi.",
+      "6": "Sei in alto significa: Modestia che giunge all'espressione. È favorevole far marciare gli eserciti per castigare la propria città e il proprio paese."
+    }
+  },
+  {
+    "numero": 16,
+    "nome_pinyin": "Yù",
+    "nome_ita": "L'Enthusiasmo",
+    "struttura_binaria": "001000",
+    "interpretazione_wiki": "Simbolo dell’energia emotiva che unisce e mobilita. Il tuono sulla terra rappresenta il risveglio collettivo, mentre la gioia guida l’azione. L’esagramma sottolinea che l’entusiasmo deve essere orientato con chiarezza, poiché l’eccesso o la dispersione possono produrre confusione. Una guida competente canalizza questa forza in direzioni costruttive. Il momento è favorevole a iniziative comunitarie, celebrazioni e rinnovamento morale. Tuttavia, l’I Ching ricorda che l’entusiasmo autentico nasce da preparazione e sincerità, non da eccitazione superficiale.",
+    "sentenza": "L'ENTUSIASMO. È propizio installare aiutanti e far marciare eserciti.",
+    "immagine": "Il tuono risuona fuori dalla terra: l'immagine dell'ENTUSIASMO. Così gli antichi re fecero musica per onorare il merito, e la offrirono con splendore alla Suprema Divinità, invitando i loro antenati a essere presenti.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Entusiasmo che si esprime reca sfortuna.",
+      "2": "Sei al secondo posto significa: Saldo come una roccia. Non un intero giorno. La perseveranza reca buona fortuna.",
+      "3": "Sei al terzo posto significa: Entusiasmo che guarda in alto crea rimorso. L'esitazione porta rimorso.",
+      "4": "Nove al quarto posto significa: La fonte dell'entusiasmo. Egli compie grandi cose. Non dubitare. Raduni amici intorno a te come un fermaglio raccoglie i capelli.",
+      "5": "Sei al quinto posto significa: Persistentemente malato, eppure non muore.",
+      "6": "Sei in alto significa: Entusiasmo illuso. Ma se dopo il compimento si cambia, non vi è macchia."
+    }
+  },
+  {
+    "numero": 17,
+    "nome_pinyin": "Suí",
+    "nome_ita": "Il Seguire",
+    "struttura_binaria": "100110",
+    "interpretazione_wiki": "Questo esagramma illustra l’arte dell’adattamento. Il lago sopra il tuono indica che la gioia segue il movimento naturale. Seguire non significa sottomissione, ma capacità di riconoscere ciò che è opportuno e di armonizzarsi con esso. L’I Ching insegna che la vera libertà nasce dal comprendere i ritmi del mondo e nel saper distinguere un leader legittimo da influenze nocive. Seguire la via corretta produce stabilità, buona fortuna e relazioni equilibrate.",
+    "sentenza": "SEGUIRE ha supremo successo. La perseveranza propizia. Nessuna macchia.",
+    "immagine": "Il tuono nel mezzo del lago: l'immagine del SEGUIRE. Così l'uomo superiore al calar del sole va al chiuso per riposo e recupero.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Lo standard sta cambiando. La perseveranza reca buona fortuna. Uscire dalla porta in compagnia produce opere.",
+      "2": "Sei al secondo posto significa: Se ci si aggrappa al ragazzino, si perde l'uomo forte.",
+      "3": "Sei al terzo posto significa: Se ci si aggrappa all'uomo forte, si perde il ragazzino. Seguendo si trova ciò che si cerca. È propizio rimanere perseveranti.",
+      "4": "Nove al quarto posto significa: Seguire crea successo. La perseveranza reca sfortuna. Andare per la propria strada con sincerità porta chiarezza. Come potrebbe esservi macchia in ciò?",
+      "5": "Nove al quinto posto significa: Sincero nel bene. Buona fortuna.",
+      "6": "Sei in alto significa: Incontra ferma alleanza ed è ulteriormente legato. Il re lo introduce alla Montagna Occidentale."
+    }
+  },
+  {
+    "numero": 18,
+    "nome_pinyin": "Gǔ",
+    "nome_ita": "Lavorare su ciò che è guasto (La Corruzione)",
+    "struttura_binaria": "011001",
+    "interpretazione_wiki": "Rappresenta la necessità di correggere disordini ereditati dal passato: errori, negligenze, strutture deteriorate. Il vento sopra la montagna simboleggia l’azione che penetra e rinnova. L’esagramma richiede analisi onesta, decisioni energiche e capacità di riforma. Non è possibile progredire senza affrontare ciò che è corrotto o stagnante. L’I Ching evidenzia che l’opera di emendamento genera forza morale e apre nuove prospettive, purché eseguita con senso di responsabilità e rispetto dei limiti.",
+    "sentenza": "LAVORARE SU CIÒ CHE È GUASTO ha supremo successo. È propizio attraversare la grande acqua. Prima del punto di partenza, tre giorni. Dopo il punto di partenza, tre giorni.",
+    "immagine": "Il vento soffia basso sulla montagna: l'immagine della CORRUZIONE. Così l'uomo superiore incita il popolo e ne fortifica lo spirito.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Rimettere a posto ciò che è stato guastato dal padre. Vi è un figlio, nessuna macchia grava sul padre dipartito. Pericolo. Alla fine buona fortuna.",
+      "2": "Nove al secondo posto significa: Rimettere a posto ciò che è stato guastato dalla madre. Non bisogna essere troppo perseveranti.",
+      "3": "Nove al terzo posto significa: Rimettere a posto ciò che è stato guastato dal padre. Vi sarà un piccolo rimorso. Nessuna grande colpa.",
+      "4": "Sei al quarto posto significa: Tollerare ciò che è stato guastato dal padre. Nel continuare si vede l'umiliazione.",
+      "5": "Sei al quinto posto significa: Rimettere a posto ciò che è stato guastato dal padre. Si incontra lode.",
+      "6": "Nove in alto significa: Non serve re e principi, fissa obiettivi più alti."
+    }
+  },
+  {
+    "numero": 19,
+    "nome_pinyin": "Lín",
+    "nome_ita": "L'Avvicinamento",
+    "struttura_binaria": "110000",
+    "interpretazione_wiki": "Indica un periodo di crescita e di espansione benevola. La terra sopra il lago suggerisce un movimento discendente di cura e supervisione. L’autorità si manifesta con gentilezza, mentre le condizioni esterne diventano sempre più favorevoli. È un momento in cui è possibile instaurare relazioni, avviare progetti e guidare altri con esempio positivo. Tuttavia, l’I Ching avverte che l’ascesa deve essere temperata da vigilanza: ogni ciclo di espansione sarà seguito da un declino se manca senso del limite.",
+    "sentenza": "L'AVVICINAMENTO ha supremo successo. La perseveranza propizia. Quando giungerà l'ottavo mese, vi sarà sfortuna.",
+    "immagine": "La terra sopra il lago: l'immagine dell'AVVICINAMENTO. Così l'uomo superiore è inesauribile nella sua volontà di insegnare, e senza limiti nella sua tolleranza e protezione del popolo.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Avvicinamento congiunto. La perseveranza reca buona fortuna.",
+      "2": "Nove al secondo posto significa: Avvicinamento congiunto. Buona fortuna. Tutto propizia.",
+      "3": "Sei al terzo posto significa: Avvicinamento confortevole. Nulla che propizi. Se ci si induce a dolersene, si diventa liberi da colpa.",
+      "4": "Sei al quarto posto significa: Avvicinamento completo. Nessuna macchia.",
+      "5": "Sei al quinto posto significa: Avvicinamento saggio. Questo è giusto per un grande principe. Buona fortuna.",
+      "6": "Sei in alto significa: Avvicinamento magnanimo. Buona fortuna. Nessuna macchia."
+    }
+  },
+  {
+    "numero": 20,
+    "nome_pinyin": "Guān",
+    "nome_ita": "La Contemplazione (La Vista)",
+    "struttura_binaria": "00011",
+    "interpretazione_wiki": "L’esagramma rappresenta la visione chiara e distaccata, essenziale per comprendere le dinamiche del mondo. Il vento sulla terra indica un influsso sottile che agisce attraverso l’osservazione. Contemplare significa vedere senza interferire, riconoscere modelli e trarre insegnamenti dall’esperienza. L’I Ching sottolinea che la contemplazione autentica ha anche una dimensione etica: l’osservatore diventa esempio per questo. Questo periodo favorisce introspezione, studio e ritiro temporaneo dall’azione diretta, al fine di ritrovare orientamento.",
+    "sentenza": "CONTEMPLAZIONE. L'abluzione è stata fatta, ma non ancora l'offerta. Pieni di fiducia essi guardano a lui.",
+    "immagine": "Il vento soffia sopra la terra: l'immagine della CONTEMPLAZIONE. Così i re di un tempo visitarono le regioni del mondo, contemplarono il popolo e diedero loro istruzione.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Contemplazione fanciullesca. Per un uomo inferiore, nessuna macchia. Per un uomo superiore, umiliazione.",
+      "2": "Sei al secondo posto significa: Contemplazione attraverso la fessura della porta. Propizio per la perseveranza di una donna.",
+      "3": "Sei al terzo posto significa: La contemplazione della mia vita decidesa la scelta tra avanzo e ritirata.",
+      "4": "Sei al quarto posto significa: Contemplazione della luce del regno. È propizio esercitare influenza come ospite di un re.",
+      "5": "Nove al quinto posto significa: Contemplazione della sua vita. L'uomo superiore è senza macchia.",
+      "6": "Nove in alto significa: Contemplazione della sua vita. L'uomo superiore è senza macchia."
+    }
+  },
+  {
+    "numero": 21,
+    "nome_pinyin": "Shì Hè",
+    "nome_ita": "Il Morso che Spezza (Bitare Attraverso)",
+    "struttura_binaria": "100101",
+    "interpretazione_wiki": "L’esagramma descrive l’atto di affrontare e rimuovere un ostacolo attraverso chiarezza e determinazione. La sua immagine, il fuoco sopra il tuono, rappresenta un’azione diretta che illumina e frantuma ciò che impedisce il corretto fluire delle relazioni o dei processi. L’I Ching interpreta questo simbolo come la necessità di applicare la giustizia e di ristabilire l’ordine mediante decisioni ferme, evitando però severità eccessiva. Mordere che spezza non è aggressione indiscriminata: richiede giudizio, equità e la capacità di distinguere il male da ciò che è soltanto disordinato. L’esagramma indica che la rimozione tempestiva degli impedimenti produce chiarezza morale e permette un nuovo inizio, purché accompagnata da trasparenza e senso di responsabilità.",
+    "sentenza": "IL MORSO CHE SPEZZA ha successo. È favorevole che la giustizia sia amministrata.",
+    "immagine": "Tuono e fulmine: l'immagine del MORSO CHE SPEZZA. Così i re dei tempi passati resero ferme le leggi attraverso pene chiaramente definite.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: I suoi piedi sono serrati nei ceppi, così che le dita scompaiono. Nessuna macchia.",
+      "2": "Sei al secondo posto significa: Morde carne tenera, così che il naso gli sparisce. Nessuna macchia.",
+      "3": "Sei al terzo posto significa: Morde carne vecchia ed essiccata e colpisce qualcosa di velenoso. Lieve umiliazione. Nessuna macchia.",
+      "4": "Nove al quarto posto significa: Morde carne secca e cartilaginosa. Riceve frecce di metallo. È propizio essere mindful delle difficoltà ed essere perseveranti. Buona fortuna.",
+      "5": "Sei al quinto posto significa: Morde carne magra essiccata. Riceve oro giallo. Perseverantemente consapevole del pericolo. Nessuna macchia.",
+      "6": "Nove in alto significa: Il suo collo è serrato nel cangue di legno, così che le orecchie scompaiono. Sfortuna."
+    }
+  },
+  {
+    "numero": 22,
+    "nome_pinyin": "Bì",
+    "nome_ita": "La Grazia",
+    "struttura_binaria": "101001",
+    "interpretazione_wiki": "Questo esagramma rappresenta l’ornamento, la bellezza e la forma armoniosa che rendono gradevole ciò che già possiede valore intrinseco. Il fuoco sulla montagna illumina l’esterno senza alterare la sostanza. L’I Ching insegna che la grazia è utile quando non diventa eccesso o artificio: il decoro sostiene la dignità e favorisce rapporti equilibrati. In momenti di grazia occorre evitare superficialità, poiché l’apparenza non deve oscurare la realtà. La bellezza, se impiegata correttamente, è un mezzo per comunicare, educare e creare armonia. L’esagramma suggerisce moderazione estetica, cura delle forme e trasparenza nei comportamenti.",
+    "sentenza": "LA GRAZIA ha successo. Nelle piccole cose è favorevole intraprendere qualcosa.",
+    "immagine": "Fuoco ai piedi della montagna: l'immagine della GRAZIA. Così procede l'uomo superiore quando chiarisce gli affari correnti, ma non osa decidere questioni controverse in questo modo.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Dona grazia alle sue dita dei piedi, lascia la carrozza e cammina.",
+      "2": "Sei al secondo posto significa: Dona grazia alla barba sul suo mento.",
+      "3": "Nove al terzo posto significa: Grazioso e umido. La perseveranza costante reca buona fortuna.",
+      "4": "Sei al quarto posto significa: Grazia o semplicità? Un cavallo bianco arriva come sulle ali. Non è un ladro, farà la corte al momento giusto.",
+      "5": "Sei al quinto posto significa: Grazia collinare e nei giardini. Il rotolo di seta è scarso e piccolo. Umiliazione, ma alla fine buona fortuna.",
+      "6": "Nove in alto significa: Semplice grazia. Nessuna macchia."
+    }
+  },
+  {
+    "numero": 23,
+    "nome_pinyin": "Bō",
+    "nome_ita": "Lo Splittarsi (La Frantumazione)",
+    "struttura_binaria": "000001",
+    "interpretazione_wiki": "L’esagramma raffigura un processo di lenta erosione: la montagna si disgrega e ciò che era stabile perde coesione. È un momento di declino in cui le energie vitali si ritirano e le strutture diventano fragili. L’I Ching non consiglia resistenza ostinata, poiché gli eventi seguono un ciclo naturale di dissoluzione. La strategia adeguata è ridurre l’esposizione, preservare ciò che ha valore e proteggere la propria integrità interiore. Lo sfacciamento conduce alla rivelazione dell’essenziale: ciò che non può più essere sostenuto deve cadere. Quando il processo è accettato con saggezza, prepara la strada a un rinnovamento futuro.",
+    "sentenza": "LO SPLITTARSI. Non è propizio andare in alcun luogo.",
+    "immagine": "La montagna riposa sulla terra: l'immagine dello SPLITTARSI. Così coloro che sono in alto possono assicurarsi la posizione solo dando generosamente a coloro che sono in basso.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: La gamba del letto è spaccata. Coloro che perseverano sono distrutti. Sfortuna.",
+      "2": "Sei al secondo posto significa: Il letto è spaccato sul bordo. Coloro che perseverano sono distrutti. Sfortuna.",
+      "3": "Sei al terzo posto significa: Si separa da loro. Nessuna macchia.",
+      "4": "Sei al quarto posto significa: Il letto è spaccato fino alla pelle. Sfortuna.",
+      "5": "Sei al quinto posto significa: Un banco di pesci. Il favore giunge attraverso le dame di corte. Tutto agisce in modo propizio.",
+      "6": "Nove in alto significa: Vi è un grosso frutto ancora non mangiato. L'uomo superiore riceve una carrozza. La casa dell'uomo inferiore si sfascia."
+    }
+  },
+  {
+    "numero": 24,
+    "nome_pinyin": "Fù",
+    "nome_ita": "Il Ritorno (Il Punto di Svolta)",
+    "struttura_binaria": "100000",
+    "interpretazione_wiki": "Simbolo del rinnovamento ciclico. Il tuono sotto la terra indica un movimento di energia che torna alla superficie dopo un periodo di quiete. L’I Ching descrive il ritorno come un riprendere la retta via, una rinascita che avviene naturalmente dopo la fase di declino rappresentata dall’esagramma precedente. È un momento favorevole per correggere deviazioni, ristabilire armonia e ripartire con passo leggero. Il ritorno non richiede sforzo: occorre seguire la direzione spontanea del mutamento, evitando eccessi e rigidità. Favorisce la rigenerazione morale e la riconnessione con ciò che è essenziale.",
+    "sentenza": "RITORNO. Successo. Uscire ed entrare senza errore. Gli amici arrivano senza macchia. Andando e venendo va la via. Nel settimo giorno giunge il ritorno. È propizio avere un luogo dove recarsi.",
+    "immagine": "Tuono dentro la terra: l'immagine del PUNTO DI SVOLTA. Così i re dell'antichità chiudevano i valichi al tempo del solstizio; mercanti e forestieri non andavano in giro, e il sovrano non viaggiava per le province.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Ritorno da una breve distanza. Nessun bisogno di rimorso. Grande buona fortuna.",
+      "2": "Sei al secondo posto significa: Quieto ritorno. Buona fortuna.",
+      "3": "Sei al terzo posto significa: Ritorno ripetuto. Pericolo. Nessuna macchia.",
+      "4": "Sei al quarto posto significa: Camminando in mezzo agli altri, si torna da soli.",
+      "5": "Sei al quinto posto significa: Ritorno nobile. Nessun rimorso.",
+      "6": "Sei in alto significa: Mancare il ritorno. Sfortuna. Sfortuna da dentro e da fuori."
+    }
+  },
+  {
+    "numero": 25,
+    "nome_pinyin": "Wú Wàng",
+    "nome_ita": "L'Innocenza (L'Inaspettato)",
+    "struttura_binaria": "100111",
+    "interpretazione_wiki": "L’innocenza è la purezza dell’intenzione non contaminata da secondi fini. Il tuono nel cielo suggerisce spontaneità e vigore naturale. L’I Ching afferma che l’azione corretta nasce da un cuore libero da inganni e calcoli eccessivi. L’esagramma ammonisce contro l’imprudenza: l’innocenza non è ingenuità, ma aderenza sincera alla realtà. L’agire autentico porta buona fortuna, mentre forzature e artifici producono disarmonia. L’Innocenza invita a rimanere fedeli alla verità interiore e a rispondere agli eventi con semplicità e lucidità.",
+    "sentenza": "INNOCENZA. Supremo successo. La perseveranza propizia. Se qualcuno non è come dovrebbe essere, ha sfortuna, e non gli propizia intraprendere alcunché.",
+    "immagine": "Sotto il cielo tuono romba: tutte le cose raggiungono lo stato naturale di innocenza. Così i re di un tempo, ricchi di virtù e in armonia con il tempo, curarono e nutrirono tutti gli esseri.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Il comportamento innocente reca buona fortuna.",
+      "2": "Sei al secondo posto significa: Se non si conta sul raccolto mentre si ara, né sull'uso del terreno mentre lo si dissoda, è propizio intraprendere qualcosa.",
+      "3": "Sei al terzo posto significa: Sfortuna undeserved. La mucca legata da qualcuno è il guadagno del viandante, la perdita del cittadino.",
+      "4": "Nove al quarto posto significa: Colui che sa essere perseverante rimane senza macchia.",
+      "5": "Nove al quinto posto significa: Non usare medicine in una malattia insorta senza tua colpa. Passerà da sé.",
+      "6": "Nove in alto significa: L'azione innocente reca sfortuna. Nulla propizia."
+    }
+  },
+  {
+    "numero": 26,
+    "nome_pinyin": "Dà Chù",
+    "nome_ita": "La Forza Domatrice del Grande",
+    "struttura_binaria": "111010",
+    "interpretazione_wiki": "L’esagramma descrive l’accumulazione di energia e conoscenza attraverso la disciplina. La montagna sopra il cielo indica contenimento di grande potenza, che diventa maturità invece di esplosione. L’I Ching invita a sviluppare capacità interiori, a studiare e a rafforzare il carattere. L’arresto non è blocco, ma forma di controllo virtuoso che permette un’azione futura più efficace. L’esagramma suggerisce di trattare con rispetto ciò che si custodisce, evitando impulsi affrettati. È un periodo di formazione, consolidamento e prudenza strategica.",
+    "sentenza": "LA FORZA DOMATRICE DEL GRANDE. La perseveranza propizia. Non mangiare a casa reca buona fortuna. È propizio attraversare la grande acqua.",
+    "immagine": "Cielo dentro la montagna: l'immagine della FORZA DOMATRICE DEL GRANDE. Così l'uomo superiore si familiarizza con molti detti dell'antichità e molte azioni del passato, per fortificare con esse il proprio carattere.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Il pericolo è imminente. È propizio desistere.",
+      "2": "Nove al secondo posto significa: Gli assali vengono tolti dal carro.",
+      "3": "Nove al terzo posto significa: Un buon cavallo che segue gli altri. Consapevolezza del pericolo, con perseveranza, propizia.",
+      "4": "Sei al quarto posto significa: La testata di un giovane toro. Grande buona fortuna.",
+      "5": "Sei al quinto posto significa: La zanna di un cinghiale castrato. Buona fortuna.",
+      "6": "Nove in alto significa: Si raggiunge la via del cielo. Successo."
+    }
+  },
+  {
+    "numero": 27,
+    "nome_pinyin": "Yí",
+    "nome_ita": "Gli Angoli della Bocca (Il Nutrimento)",
+    "struttura_binaria": "100001",
+    "interpretazione_wiki": "Quest’esagramma riguarda il nutrimento in tutte le sue forme: fisico, emotivo, spirituale. La montagna sotto il tuono rappresenta una struttura stabile che sostiene la crescita. L’I Ching invita a considerare attentamente ciò che si assume — idee, relazioni, cibo — poiché l’alimentazione determina il futuro sviluppo. La bocca come simbolo allude alla necessità di parlare e agire con consapevolezza. Nutrire se stessi e gli altri implica responsabilità, misura e purezza d’intenti. Il periodo favorisce la cura del corpo e della mente.",
+    "sentenza": "GLI ANGOLI DELLA BOCCA. La perseveranza reca buona fortuna. Poni mente al fornire nutrimento e a ciò che l'uomo cerca per riempire la propria bocca.",
+    "immagine": "Ai piedi della montagna, il tuono: l'immagine del FORNIRE NUTRIMENTO. Così l'uomo superiore è accorto nelle sue parole e temperato nel mangiare e nel bere.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Lasci andare la tua tartaruga magica e mi guardi con gli angoli della bocca cadenti. Sfortuna.",
+      "2": "Sei al secondo posto significa: Rivolgersi alla vetta per nutrimento, deviando dal sentiero per cercare nutrimento dalla collina. Continuare a fare questo reca sfortuna.",
+      "3": "Sei al terzo posto significa: Allontanarsi dal nutrimento. La perseveranza reca sfortuna. Non agire così per dieci anni. Nulla serve a propiziare.",
+      "4": "Sei al quarto posto significa: Rivolgersi alla vetta per la fornitura di nutrimento reca buona fortuna. Spiare attorno con occhi avidi come una tigre con brama insaziabile. Nessuna macchia.",
+      "5": "Sei al quinto posto significa: Allontanarsi dal sentiero. Rimanere perseveranti reca buona fortuna. Non si dovrebbe attraversare la grande acqua.",
+      "6": "Nove in alto significa: La fonte di nutrimento. La consapevolezza del pericolo reca buona fortuna. È propizio attraversare la grande acqua."
+    }
+  },
+  {
+    "numero": 28,
+    "nome_pinyin": "Dà Guò",
+    "nome_ita": "La Preponderanza del Grande",
+    "struttura_binaria": "011110",
+    "interpretazione_wiki": "Rappresenta un eccesso di peso o responsabilità che rischia di spezzare la struttura portante. Il lago sopra il vento indica fragilità sotto pressione. L’I Ching consiglia di affrontare la situazione con coraggio e chiarezza, ma anche con attenzione ai limiti: è necessario agire, ma evitando rotture improvvise. La preponderanza del grande è un momento critico che può portare a risultati notevoli se gestito con equilibrio. Occorre sostenere il carico con dignità, alleggerendo ciò che è superfluo.",
+    "sentenza": "PREPONDERANZA DEL GRANDE. Il trave di colmo cede fino al punto di rottura. È propizio avere un luogo dove recarsi. Successo.",
+    "immagine": "Il lago sale al di sopra degli alberi: l'immagine della PREPONDERANZA DEL GRANDE. Così l'uomo superiore, quando è solo, è indifferente, e se deve rinunciare al mondo, è impavido.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Stendere giunchi bianchi sotto. Nessuna macchia.",
+      "2": "Nove al secondo posto significa: Un pioppo secco mette germogli alla radice. Un uomo anziano prende una giovane sposa. Tutto propizia.",
+      "3": "Nove al terzo posto significa: Il trave di colmo cede fino al punto di rottura. Sfortuna.",
+      "4": "Nove al quarto posto significa: Il trave di colmo è rinforzato. Buona fortuna. Se vi sono secondi fini, è umiliante.",
+      "5": "Nove al quinto posto significa: Un pioppo secco mette fiori. Una donna anziana prende un marito. Nessuna macchia, nessuna lode.",
+      "6": "Sei in alto significa: Bisogna attraversare l'acqua. Essa va sopra la testa. Sfortuna. Nessuna macchia."
+    }
+  },
+  {
+    "numero": 29,
+    "nome_pinyin": "Kǎn",
+    "nome_ita": "L'Abissale (L'Acqua)",
+    "struttura_binaria": "010010",
+    "interpretazione_wiki": "L’abissale indica pericoli ricorrenti, situazioni complesse che richiedono costanza e autocontrollo. L’acqua si ripete due volte, simbolo di profondità e rischio. L’I Ching afferma che la via per superare il pericolo non è l’evasione, ma la disciplina: mantenere coerenza morale, rispettare limiti e procedere con metodo. L’acqua fluisce aggirando ostacoli senza perdere forma: così deve comportarsi chi affronta difficoltà ripetute. Questo periodo rafforza l’integrità e insegna prudenza.",
+    "sentenza": "L'ABISSALE ripetuto. Se sei sincero, hai successo nel tuo cuore, e qualunque cosa tu faccia ha successo.",
+    "immagine": "L'acqua scorre ininterrottamente e raggiunge la sua meta: l'immagine dell'ABISSALE ripetuto. Così l'uomo superiore cammina nella virtù duratura e svolge l'opera di insegnamento.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Ripetizione dell'abissale. Nell'abisso si cade in una fossa. Sfortuna.",
+      "2": "Nove al secondo posto significa: L'abisso è pericoloso. Si dovrebbe cercare di raggiungere solo piccole cose.",
+      "3": "Sei al terzo posto significa: Avanti e indietro, abisso su abisso. Nel pericolo come questo, fermati dapprima e attendi, altrimenti cadi in una fossa nell'abisso.",
+      "4": "Sei al quarto posto significa: Un boccale di vino, una ciotola di riso con esso; vasi di terracotta passati semplicemente attraverso la finestra. Non vi è certamente alcuna macchia in ciò.",
+      "5": "Nove al quinto posto significa: L'abisso non è colmo fino all'orlo, è colmo solo fino al margine. Nessuna macchia.",
+      "6": "Sei in alto significa: Legato con corde e funi, chiuso tra le pareti di una prigione irte di spine: per tre anni non si trova la via. Sfortuna."
+    }
+  },
+  {
+    "numero": 30,
+    "nome_pinyin": "Lí",
+    "nome_ita": "Il Ching, Il Fuoco (Il Luminoso)",
+    "struttura_binaria": "101101",
+    "interpretazione_wiki": "Simbolo della chiarezza, dell’identità e della visione. Il fuoco aderisce a ciò che illumina, rivelando forme e orientando l’azione. L’I Ching interpreta questo esagramma come la necessità di sostenere la luce interiore e di mantenere coerenza tra pensiero e comportamento. Il Risoluto favorisce apprendimento, ordine e discernimento, ma avverte contro passioni eccessive che potrebbero consumare energia. È un momento di consapevolezza e consolidamento intellettuale.",
+    "sentenza": "IL LUMINOSO. La perseveranza propizia. Porta successo. La cura della mucca reca buona fortuna.",
+    "immagine": "Ciò che è luminoso sorge due volte: l'immagine del FUOCO. Così il grand'uomo, perpetuando questa luminosità, illumina i quattro angoli del mondo.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Le orme corrono a zig-zag. Se si è seriamente intenti, nessuna macchia.",
+      "2": "Sei al secondo posto significa: Luce gialla. Suprema buona fortuna.",
+      "3": "Nove al terzo posto significa: Alla luce del sole calante, gli uomini o battono il pentolone e cantano o piangono ad alta voce l'avvicinarsi della vecchiaia. Sfortuna.",
+      "4": "Nove al quarto posto significa: Il suo arrivo è improvviso; divampa, si spegne, viene gettato via.",
+      "5": "Sei al quinto posto significa: Lacrime a fiumi, sospiri e lamenti. Buona fortuna.",
+      "6": "Nove in alto significa: Il re lo usò per marciare e castigare. Allora è meglio uccidere i capi e prendere prigionieri i seguaci. Nessuna macchia."
+    }
+  },
+  {
+    "numero": 31,
+    "nome_pinyin": "Xián",
+    "nome_ita": "L'Influenza (Il Corteggiamento)",
+    "struttura_binaria": "011100",
+    "interpretazione_wiki": "L’esagramma descrive l’influenza reciproca che nasce da sincerità e apertura. Il lago sulla montagna indica un movimento che parte dal cuore e si propaga verso l’esterno. L’I Ching insegna che la vera influenza non deriva da costrizione ma da risonanza emotiva e integrità morale. Quando due parti si avvicinano con rispetto e naturalezza, l’armonia cresce e permette collaborazione duratura. Questo periodo favorisce relazioni affettive, accordi e cooperazione artistica. Tuttavia, richiede anche delicatezza: pressioni, fretta o manipolazione interrompono il flusso. L’influenza autentica scaturisce dalla presenza calma e dalla capacità di comprendere l’altro.",
+    "sentenza": "INFLUENZA. Successo. La perseveranza propizia. Prendere in moglie una fanciulla reca buona fortuna.",
+    "immagine": "Un lago sulla montagna: l'immagine dell'INFLUENZA. Così l'uomo superiore incoraggia le persone ad avvicinarlo con la sua disponibilità a riceverle.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: L'influenza si mostra nell'alluce.",
+      "2": "Sei al secondo posto significa: L'influenza si mostra nei polpacci delle gambe. Sfortuna. Il persistere reca buona fortuna.",
+      "3": "Nove al terzo posto significa: L'influenza si mostra nelle cosce. Si tiene stretto a ciò che la segue. Continuare è umiliante.",
+      "4": "Nove al quarto posto significa: La perseveranza reca buona fortuna. Il rimorso scompare.",
+      "5": "Nove al quinto posto significa: L'influenza si mostra nella nuca. Nessun rimorso.",
+      "6": "Sei in alto significa: L'influenza si mostra nelle mascelle, nelle guance e nella lingua."
+    }
+  },
+  {
+    "numero": 32,
+    "nome_pinyin": "Héng",
+    "nome_ita": "La Durata",
+    "struttura_binaria": "001110",
+    "interpretazione_wiki": "Rappresenta stabilità, continuità e perseveranza. Il tuono sopra il vento suggerisce movimento ordinato e costante. La Durata non è immobilità, ma coerenza dinamica: ciò che è retto persiste nel tempo e consolida le relazioni. L’I Ching afferma che una condotta stabile richiede misura, impegno e capacità di evitare estremi. Le situazioni diventano affidabili quando si mantengono principi chiari e comportamenti costanti. Questo è un periodo favorevole per consolidare impegni, approfondire studio e rafforzare alleanze. Tuttavia, la durata può degenerare in rigidità se priva di adattamento.",
+    "sentenza": "DURATA. Successo. Nessuna macchia. La perseveranza propizia. È propizio avere un luogo dove recarsi.",
+    "immagine": "Tuono e vento: l'immagine della DURATA. Così l'uomo superiore sta saldo e non cambia direzione.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Cercare la durata troppo frettolosamente reca sfortuna persistente. Nulla che propizi.",
+      "2": "Nove al secondo posto significa: Il rimorso scompare.",
+      "3": "Nove al terzo posto significa: Colui che non dà durata al proprio carattere incontra disgrazia. Umiliazione persistente.",
+      "4": "Nove al quarto posto significa: Nessuna preda nel campo.",
+      "5": "Sei al quinto posto significa: Dare durata al proprio carattere attraverso la perseveranza. Questa è buona fortuna per una donna, sfortuna per un uomo.",
+      "6": "Sei in alto significa: L'inquietudine come condizione permanente reca sfortuna."
+    }
+  },
+  {
+    "numero": 33,
+    "nome_pinyin": "Dùn",
+    "nome_ita": "La Ritirata",
+    "struttura_binaria": "111100",
+    "interpretazione_wiki": "L’esagramma suggerisce il ritiro strategico quando le condizioni diventano ostili. Il cielo sulla montagna indica elevazione e distacco. L’I Ching insegna che ritirarsi non significa fallire, ma proteggere la propria integrità evitando conflitti inutili. In tempi di confusione o predominanza di forze negative, è saggio ridurre l’esposizione, rafforzare il proprio centro e prepararsi a tempi migliori. La ritirata è attiva: richiede lucidità, disciplina e capacità di scegliere ciò che va lasciato andare. Questo periodo permette rigenerazione e riorientamento.",
+    "sentenza": "RITIRATA. Successo. Nel piccolo, la perseveranza propizia.",
+    "immagine": "Montagna sotto il cielo: l'immagine della RITIRATA. Così l'uomo superiore tiene a distanza l'uomo inferiore, non con rabbia ma con riserva.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Alla coda nella ritirata. Questo è pericoloso. Non bisogna desiderare di intraprendere alcunché.",
+      "2": "Sei al secondo posto significa: Lo tiene stretto con pelle di bue giallo. Nessuno può strapparlo via.",
+      "3": "Nove al terzo posto significa: Una ritirata interrotta è snervante e pericolosa. Trattenere le persone come servi e serve reca buona fortuna.",
+      "4": "Nove al quarto posto significa: La ritirata volontaria reca buona fortuna all'uomo superiore e rovina all'uomo inferiore.",
+      "5": "Nove al quinto posto significa: Ritirata amichevole. La perseveranza reca buona fortuna.",
+      "6": "Nove in alto significa: Ritirata allegra. Tutto serve a propiziare."
+    }
+  },
+  {
+    "numero": 34,
+    "nome_pinyin": "Dà Zhuàng",
+    "nome_ita": "La Potenza del Grande",
+    "struttura_binaria": "001111",
+    "interpretazione_wiki": "Indica una fase di forza crescente e vitalità. Il tuono sopra il cielo rappresenta energia in espansione. L’I Ching avverte che grande potere richiede moderazione: l’impulso potrebbe diventare eccessivo, danneggiando relazioni e obiettivi. La forza è virtuosa solo se accompagnata da autocontrollo e correttezza. È un buon momento per iniziative decisive, purché non si agisca con arroganza. L’esagramma mostra che l’autentica potenza si esprime con continuità, non con colpi improvvisi.",
+    "sentenza": "LA POTENZA DEL GRANDE. La perseveranza propizia.",
+    "immagine": "Tuono nel cielo sopra: l'immagine della POTENZA DEL GRANDE. Così l'uomo superiore non calpesta sentieri che non accordano con l'ordine stabilito.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Potenza nelle dita dei piedi. Continuare reca sfortuna. Certamente.",
+      "2": "Nove al secondo posto significa: La perseveranza reca buona fortuna.",
+      "3": "Nove al terzo posto significa: L'uomo inferiore lavora attraverso la potenza. L'uomo superiore non agisce così. Continuare è pericoloso. Una capra cozza contro una siepe e si imbroglia le corna.",
+      "4": "Nove al quarto posto significa: La perseveranza reca buona fortuna. Il rimorso scompare. La siepe si apre, non vi è imbroglio. La potenza dipende dall'asse di un grosso carro.",
+      "5": "Sei al quinto posto significa: Perde la capra con facilità. Nessun rimorso.",
+      "6": "Sei in alto significa: Una capra cozza contro una siepe. Non può andare indietro, non può andare avanti. Nulla serve a propiziare. Se si nota la difficoltà, ciò reca buona fortuna."
+    }
+  },
+  {
+    "numero": 35,
+    "nome_pinyin": "Jìn",
+    "nome_ita": "Il Progresso",
+    "struttura_binaria": "101000",
+    "interpretazione_wiki": "Simboleggia avanzamento rapido e luminoso, come il sole che sorge sopra la terra. Il Progresso indica condizioni favorevoli alla crescita, sostenute da riconoscimento esterno e da una condotta chiara. L’I Ching ricorda che il progresso deve essere gestito con modestia e senso del dovere: la luce attrae attenzione, ma anche possibili invidie o ostacoli. Per progredire in modo stabile occorre mantenere rettitudine, evitare ostentazione e consolidare gradualmente ogni successo. Il momento è propizio per sviluppare capacità, ottenere sostegno e ampliare attività.",
+    "sentenza": "PROGRESSO. Il potente principe è onorato con cavalli in gran numero. In un solo giorno gli è concessa udienza tre volte.",
+    "immagine": "Il sole sorge sulla terra: l'immagine del PROGRESSO. Così l'uomo superiore stesso rende brillante la sua fulgida virtù.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Progredire, ma voltati indietro. La perseveranza reca buona fortuna. Se non si incontra fiducia, si rimanga calmi. Nessun errore.",
+      "2": "Sei al secondo posto significa: Progredire, ma nel dolore. La perseveranza reca buona fortuna. Allora si ottiene grande felicità dalla propria antenata.",
+      "3": "Sei al terzo posto significa: Tutti sono d'accordo. Il rimorso scompare.",
+      "4": "Nove al quarto posto significa: Progredire come un criceto. La perseveranza reca pericolo.",
+      "5": "Sei al quinto posto significa: Il rimorso scompare. Non prendere a cuore guadagno e perdita. Le imprese recano buona fortuna. Tutto serve a propiziare.",
+      "6": "Nove in alto significa: Fare progressi con le corna è ammissibile solo allo scopo di punire la propria città. Essere consapevoli del pericolo reca buona fortuna. Nessuna macchia. La perseveranza reca umiliazione."
+    }
+  },
+  {
+    "numero": 36,
+    "nome_pinyin": "Míng Yí",
+    "nome_ita": "L'Oscuramento della Luce",
+    "struttura_binaria": "000101",
+    "interpretazione_wiki": "Rappresenta la condizione in cui la luce — simbolo di virtù, chiarezza e saggezza — è ostacolata o perseguitata. Il fuoco sotto la terra indica splendore nascosto. L’I Ching insegna che quando il contesto è ostile, la rettitudine deve ritirarsi in forme discrete, evitando scontri diretti. L’ottenebramento non spegne la luce interiore, ma la invita alla prudenza e alla resilienza. Questo periodo richiede forza morale, capacità di sopportare ingiustizie e attenzione a preservare la propria visione senza metterla in pericolo.",
+    "sentenza": "OSCURAMENTO DELLA LUCE. Nell'avversità è propizio essere perseveranti.",
+    "immagine": "La luce è affondata nella terra: l'immagine dell'OSCURAMENTO DELLA LUCE. Così l'uomo superiore vive con la grande massa: vela la sua luce, eppure brilla ancora.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Oscuramento della luce durante la fuga. Abbassa le ali. L'uomo superiore non mangia per tre giorni durante le sue peregrinazioni. Ma ha un luogo dove recarsi. L'ospite ha motivo di spettegolare su di lui.",
+      "2": "Sei al secondo posto significa: L'oscuramento della luce lo ferisce alla coscia sinistra. Dà aiuto con la forza di un cavallo. Buona fortuna.",
+      "3": "Nove al terzo posto significa: Oscuramento della luce durante la caccia nel sud. Il loro grande capo viene catturato. Non bisogna aspettarsi la perseveranza troppo presto.",
+      "4": "Sei al quarto posto significa: Penetra il lato sinistro del ventre. Si arriva al cuore stesso dell'oscuramento della luce.",
+      "5": "Sei al quinto posto significa: Oscuramento della luce come per il Principe Chi. La perseveranza propizia.",
+      "6": "Sei in alto significa: Non luce ma tenebre. Prima salì al cielo, poi sprofondò nelle profondità della terra."
+    }
+  },
+  {
+    "numero": 37,
+    "nome_pinyin": "Jiā Rén",
+    "nome_ita": "La Famiglia (Il Clan)",
+    "struttura_binaria": "101011",
+    "interpretazione_wiki": "Simbolo dell’ordine domestico e delle relazioni interne a un gruppo. Il vento sopra il fuoco rappresenta educazione e chiarezza. L’I Ching afferma che l’armonia familiare nasce da ruoli ben definiti, comunicazione sincera e senso di responsabilità reciproca. La famiglia è modello di organizzazione sociale: ciò che funziona nel piccolo può estendersi nel grande. Il periodo favorisce il rafforzamento di legami, la cura della casa e la gestione equilibrata delle risorse comuni.",
+    "sentenza": "LA FAMIGLIA. La perseveranza della donna propizia.",
+    "immagine": "Il vento esce dal fuoco: l'immagine della FAMIGLIA. Così l'uomo superiore ha sostanza nelle sue parole e durata nel suo modo di vivere.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Rigida seclusione all'interno della famiglia. Il rimorso scompare.",
+      "2": "Sei al secondo posto significa: Essa non dovrebbe seguire i suoi capricci. Deve occuparsi all'interno del cibo. La perseveranza reca buona fortuna.",
+      "3": "Nove al terzo posto significa: Quando gli animi si infiammano nella famiglia, una severità troppo grande reca rimorso. Buona fortuna nondimeno. Quando donna e figlio canticchiano e ridono, ciò conduce alla fine all'umiliazione.",
+      "4": "Sei al quarto posto significa: Essa è il tesoro della casa. Grande buona fortuna.",
+      "5": "Nove al quinto posto significa: Come un re si avvicina alla sua famiglia. Non temere. Buona fortuna.",
+      "6": "Nove in alto significa: La sua opera comanda rispetto. Alla fine giunge la buona fortuna."
+    }
+  },
+  {
+    "numero": 38,
+    "nome_pinyin": "Kuí",
+    "nome_ita": "L'Opposizione",
+    "struttura_binaria": "110101",
+    "interpretazione_wiki": "L’esagramma descrive divergenze, differenze di opinione e distanziamento tra parti. Il fuoco sopra il lago indica energie che non si armonizzano. L’I Ching non considera la contrapposizione necessariamente negativa: essa permette distinguere identità e chiarire obiettivi. Tuttavia, conflitti prolungati indeboliscono la cooperazione. È utile cercare punti comuni, comunicare con rispetto e accettare che esistano prospettive differenti. Il momento richiede flessibilità e capacità diplomatica.",
+    "sentenza": "OPPOSIZIONE. Nelle piccole cose, buona fortuna.",
+    "immagine": "Sopra, il fuoco; sotto, il lago. L'immagine dell'OPPOSIZIONE. Così in mezzo a ogni comunanza l'uomo superiore mantiene la sua individualità.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Il rimorso scompare. Se perdi il tuo cavallo, non correre dietro ad esso; esso tornerà di propria iniziativa. Quando vedi persone malvage, guardati dagli errori.",
+      "2": "Nove al secondo posto significa: Si incontra il proprio signore in una strada stretta. Nessuna macchia.",
+      "3": "Sei al terzo posto significa: Si vede il carro trascinato indietro, i buoi fermati, i capelli e il naso di un uomo tagliati. Non un buon inizio, ma una buona fine.",
+      "4": "Nove al quarto posto significa: Isolato attraverso l'opposizione, si incontra un uomo di analogo pensiero con cui si può associare in buona fede. Nonostante il pericolo, nessuna macchia.",
+      "5": "Sei al quinto posto significa: Il rimorso scompare. Il compagno si fa strada attraverso gli involucri. Se si va da lui, come potrebbe essere un errore?",
+      "6": "Nove in alto significa: Isolato attraverso l'opposizione, si vede il proprio compagno come un maiale coperto di sporco, come un carro pieno di diavoli. Prima si tende un arco contro di lui, poi si posa l'arco. Non è un robber; farà la corte al momento giusto. Mentre si cammina, piove; allora giunge la buona fortuna."
+    }
+  },
+  {
+    "numero": 39,
+    "nome_pinyin": "Jiǎn",
+    "nome_ita": "L'Ostacolo (L'Impedimento)",
+    "struttura_binaria": "010100",
+    "interpretazione_wiki": "Indica impedimenti seri che rallentano o bloccano il progresso. L’acqua di fronte alla montagna rappresenta difficoltà che non possono essere aggirate con forza. L’I Ching consiglia di cercare aiuto esterno, rivalutare strategie e procedere con cautela. Gli ostacoli rafforzano il carattere quando si affrontano con umiltà e perseveranza. A volte è necessario cambiare direzione o sospendere l’azione, in attesa di condizioni più favorevoli.",
+    "sentenza": "OSTACOLO. Il sud-ovest propizia, il nord-est non propizia. È propizio vedere il grand'uomo. La perseveranza reca buona fortuna.",
+    "immagine": "Acqua sulla montagna: l'immagine dell'OSTACOLO. Così l'uomo superiore rivolge la sua attenzione a se stesso e modella il suo carattere.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Andare conduce a ostacoli, venire incontra lode.",
+      "2": "Sei al secondo posto significa: Il servo del re è assediato da ostacolo su ostacolo, ma non è colpa sua.",
+      "3": "Nove al terzo posto significa: Andare conduce a ostacoli; perciò egli ritorna.",
+      "4": "Sei al quarto posto significa: Andare conduce a ostacoli, venire conduce all'unione.",
+      "5": "Nove al quinto posto significa: Nel mezzo dei più grandi ostacoli, arrivano gli amici.",
+      "6": "Sei in alto significa: Andare conduce a ostacoli, venire conduce a grande buona fortuna. È propizio vedere il grand'uomo."
+    }
+  },
+  {
+    "numero": 40,
+    "nome_pinyin": "Xiè",
+    "nome_ita": "La Liberazione",
+    "struttura_binaria": "001010",
+    "interpretazione_wiki": "Simbolo dello scioglimento della tensione dopo un periodo difficile. Il tuono sopra l’acqua indica un movimento che libera energia e ristabilisce equilibrio. L’I Ching insegna che la liberazione è efficace quando accompagnata da decisioni rapide e chiare. È un momento per risolvere conflitti, abbandonare pesi e semplificare situazioni complesse. La liberazione richiede sincerità e senso di opportunità: ciò che viene sciolto non deve essere ripreso. Favorisce nuovi inizi e alleggerimento mentale.",
+    "sentenza": "LIBERAZIONE. Il sud-ovest propizia. Se non vi è più nulla dove bisogna recarsi, il ritorno reca buona fortuna. Se vi è ancora qualcosa dove bisogna recarsi, l'affrettarsi reca buona fortuna.",
+    "immagine": "Tuono e pioggia hanno inizio: l'immagine della LIBERAZIONE. Così l'uomo superiore perdona gli errori e perdona i misfatti.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Senza macchia.",
+      "2": "Nove al secondo posto significa: Si uccidono tre volpi nel campo e si riceve una freccia gialla. La perseveranza reca buona fortuna.",
+      "3": "Sei al terceiro posto significa: Se un uomo porta un fardello sulla schiena e nondimeno viaggia in carrozza, incoraggia i ladri ad avvicinarsi. La perseveranza conduce all'umiliazione.",
+      "4": "Nove al quarto posto significa: Liberati del tuo alluce. Allora arriva il compagno, e di lui ti puoi fida.",
+      "5": "Sei al quinto posto significa: Se solo l'uomo superiore può liberarsi, ciò reca buona fortuna. Così dimostra agli uomini inferiori che fa sul serio.",
+      "6": "Sei in alto significa: Il principe spara a un falco su un alto muro. Lo uccide. Tutto serve a propiziare."
+    }
+  },
+  {
+    "numero": 41,
+    "nome_pinyin": "Sǔn",
+    "nome_ita": "La Diminuzione",
+    "struttura_binaria": "110001",
+    "interpretazione_wiki": "Rappresenta un processo di riduzione volontaria e disciplinata. Il monte sopra il lago indica un equilibrio creato sottraendo l’eccesso. L’I Ching insegna che diminuire ciò che è superfluo rafforza ciò che è essenziale: rinunciare a comodità, sprechi o ambizioni poco realistiche permette di liberare risorse utili e mantenere chiarezza. La Diminuzione è virtuosa quando condivisa e armonizzata; sacrifici imposti o egoistici generano risentimento. Il periodo favorisce semplificazione, risparmio, introspezione e cura delle priorità reali.",
+    "sentenza": "DIMINUZIONE combinata con sincerità reca suprema buona fortuna senza macchia. Si può essere perseveranti in questo. È propizio intraprendere qualcosa.",
+    "immagine": "Ai piedi della montagna, il lago: l'immagine della DIMINUZIONE. Così l'uomo superiore controlla la sua rabbia e frena i suoi istinti.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Andare rapidamente quando i propri compiti sono finiti è senza macchia. Ma si deve riflettere su quanto si possa diminuire gli altri.",
+      "2": "Nove al secondo posto significa: La perseveranza propizia. Intraprendere qualcosa reca sfortuna. Senza diminuire se stessi, si è in grado di portare accrescimento agli altri.",
+      "3": "Sei al terzo posto significa: Quando tre persone viaggiano insieme, il loro numero aumenta di uno. Quando un uomo viaggia da solo, trova un compagno.",
+      "4": "Sei al quarto posto significa: Se un uomo diminuisce i suoi difetti, fa sì che l'altro si affretti ad arrivare e gioire. Nessuna macchia.",
+      "5": "Sei al quinto posto significa: Qualcuno lo accresce davvero. Dieci paia di tartarughe non possono opporvisi. Suprema buona fortuna.",
+      "6": "Nove in alto significa: Se si viene accresciuti senza privare gli altri, non vi è macchia. La perseveranza reca buona fortuna. È propizio intraprendere qualcosa. Si ottengono servitori ma non si ha più una casa separata."
+    }
+  },
+  {
+    "numero": 42,
+    "nome_pinyin": "Yì",
+    "nome_ita": "L'Accrescimento",
+    "struttura_binaria": "100011",
+    "interpretazione_wiki": "Indica crescita, prosperità e incremento di energie positive. Il vento sopra il tuono suggerisce diffusione rapida di benefici. L’I Ching afferma che l’accrescimento nasce dalla generosità e dall’azione retta: chi distribuisce vantaggi crea condizioni per un ritorno maggiore. È un tempo propizio a collaborazioni, sviluppo di progetti e investimento nelle qualità morali. Tuttavia, l’aumento deve essere amministrato con prudenza; espansioni impulsive o egoistiche possono rovesciarsi.",
+    "sentenza": "ACCRESCIMENTO. È propizio intraprendere qualcosa. È propizio attraversare la grande acqua.",
+    "immagine": "Vento e tuono: l'immagine dell'ACCRESCIMENTO. Così l'uomo superiore: se vede il bene, lo imita; se ha difetti, se ne sbarazza.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: È propizio compiere grandi opere. Suprema buona fortuna. Nessuna macchia.",
+      "2": "Sei al secondo posto significa: Qualcuno lo accresce davvero; dieci paia di tartarughe non possono opporvisi. Costante perseveranza reca buona fortuna. Il re lo presenta davanti a Dio. Buona fortuna.",
+      "3": "Sei al terzo posto significa: Si è arricchiti attraverso eventi sfortunati. Nessuna macchia, se sei sincero e cammini nel mezzo, e riferisci con un sigillo al principe.",
+      "4": "Sei al quarto posto significa: Se cammini nel mezzo e riferisci al principe, egli seguirà. È propizio essere impiegati nella rimozione della capitale.",
+      "5": "Nove al quinto posto significa: Se in verità hai un cuore gentile, non chiedere. Suprema buona fortuna. Veramente, la gentilezza sarà riconosciuta come tua virtù.",
+      "6": "Nove in alto significa: Egli non reca accrescimento a nessuno. Anzi, qualcuno lo colpisce persino. Non tiene il suo cuore costantemente saldo. Sfortuna."
+    }
+  },
+  {
+    "numero": 43,
+    "nome_pinyin": "Guài",
+    "nome_ita": "La Rotta (La Risolutezza)",
+    "struttura_binaria": "111110",
+    "interpretazione_wiki": "Simbolo di decisione risolutiva contro ciò che è corrotto o ostile. Il lago sopra il cielo rappresenta chiarezza e determinazione che emergono. L’I Ching consiglia di dichiarare apertamente la propria posizione, evitando mezze misure: è tempo di tagliare radici negative, abusi o ambiguità. Tuttavia, la rottura richiede compostezza, non violenza: fermezza sì, aggressività no. Se la decisione è giusta e comunicata con dignità, apre la via al rinnovamento.",
+    "sentenza": "ROTTA. Bisogna rendere nota la questione con risolutezza alla corte del re. Deve essere annunciato con veridicità. Pericolo. È necessario notificare la propria città. Non propizia ricorrere alle armi. È propizio intraprendere qualcosa.",
+    "immagine": "Il lago è salito fino al cielo: l'immagine della ROTTA. Così l'uomo superiore distribuisce le ricchezze verso il basso e si astiene dal riposare sulla sua virtù.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Potente nelle dita dei piedi protese in avanti. Quando uno va e non è all'altezza del compito, commette un errore.",
+      "2": "Nove al secondo posto significa: Un grido d'allarme. Armi la sera e di notte. Non temere nulla.",
+      "3": "Nove al terzo posto significa: Essere potenti negli zigomi reca sfortuna. L'uomo superiore è fermamente risolto. Cammina da solo e viene sorpreso dalla pioggia, viene inzuppato e la gente mormora contro di lui. Nessuna macchia.",
+      "4": "Nove al quarto posto significa: Non vi è pelle sulle sue cosce, e camminare risulta difficile. Se un uomo si lasciasse guidare come una pecora, il rimorso scomparirebbe. Ma se queste parole vengono ascoltate, non saranno credute.",
+      "5": "Nove al quinto posto significa: Nel trattare le erbacce, è necessaria una ferma risolutezza. Camminare nel mezzo rimane libero da colpa.",
+      "6": "Sei in alto significa: Nessun grido. Alla fine sopraggiunge la sfortuna."
+    }
+  },
+  {
+    "numero": 44,
+    "nome_pinyin": "Gòu",
+    "nome_ita": "L'Incontro",
+    "struttura_binaria": "011111",
+    "interpretazione_wiki": "Rappresenta l’improvvisa comparsa di una forza potente ma potenzialmente destabilizzante. Il vento sotto il cielo indica un influsso che sale e attrae. L’I Ching avverte che l’incontro può essere seducente ma rischioso: una piccola energia non ancora equilibrata può crescere fino a dominare la situazione. È necessario accogliere con prudenza, mantenere limiti chiari e non lasciarsi trascinare dall’entusiasmo. Periodo favorevole alla lucidità, non agli impegni duraturi.",
+    "sentenza": "INCONTRO. La fanciulla è potente. Non si dovrebbe sposare una tale fanciulla.",
+    "immagine": "Sotto il cielo, il vento: l'immagine dell'INCONTRO. Così agisce il principe quando diffonde i suoi comandi e li proclama ai quattro angoli del cielo.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Deve essere frenato con un freno di bronzo. La perseveranza reca buona fortuna. Se si lascia che prenda il suo corso, si sperimenta la sfortuna. Anche un maialino magro ha in sé la capacità di infuriarsi.",
+      "2": "Nove al secondo posto significa: Vi è un pesce nel serbatoio. Nessuna macchia. Non propizia gli ospiti.",
+      "3": "Nove al terceiro posto significa: Non vi è pelle sulle sue cosce, e camminare risulta difficile. Se si è consapevoli del pericolo, non si commette alcun grande errore.",
+      "4": "Nove al quarto posto significa: Nessun pesce nel serbatoio. Questo conduce alla sfortuna.",
+      "5": "Nove al quinto posto significa: Un melone coperto di foglie di salice. Linee nascoste. Poi ti cade addosso dal cielo.",
+      "6": "Nove in alto significa: Viene incontro con le sue corna. Umiliazione. Nessuna macchia."
+    }
+  },
+  {
+    "numero": 45,
+    "nome_pinyin": "Cuì",
+    "nome_ita": "Il Raccolgersi (La Massa)",
+    "struttura_binaria": "011000",
+    "interpretazione_wiki": "Simbolo di raduno, unione e coesione. Il lago sulla terra suggerisce comunità nutrita da emozioni condivise. L’I Ching insegna che la forza della collettività aumenta quando c’è un centro affidabile e un obiettivo comune. La Raccolta richiede ordine, sincerità e sacrificio personale per il bene comune. È un periodo favorevole a organizzazioni, decisioni collettive e celebrazioni; ma l’armonia del gruppo va mantenuta con leadership chiara e rispetto reciproco.",
+    "sentenza": "RACCOGLIERSI. Successo. Il re si avvicina al suo tempio. È propizio vedere il grand'uomo. Questo porta successo. La perseveranza propizia. Offrire grandi doni crea buona fortuna. È propizio intraprendere qualcosa.",
+    "immagine": "Sopra la terra, il lago: l'immagine del RACCOGLIERSI. Così l'uomo superiore rinnova le sue armi per far fronte all'imprevisto.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Se sei sincero, ma non fino alla fine, vi sarà talvolta confusione, talvolta raccolta. Se gridi, allora dopo una stretta di mano puoi ridere di nuovo. Non pentirti. L'andare è senza macchia.",
+      "2": "Sei al secondo posto significa: Lasciarsi attrarre reca buona fortuna e rimane senza macchia. Se si è sinceri, è propizio portare persino un piccolo dono.",
+      "3": "Sei al terzo posto significa: Raccolta tra i sospiri. Nulla che propizi. L'andare è senza macchia. Lieve umiliazione.",
+      "4": "Nove al quarto posto significa: Grande buona fortuna. Nessuna macchia.",
+      "5": "Nove al quinto posto significa: Se nel raccogliersi si ha una posizione, ciò non reca macchia. Se vi sono alcuni che non sono ancora sinceramente nell'opera, è necessaria una sublime e duratura perseveranza. Allora il rimorso scompare.",
+      "6": "Sei in alto significa: Lamenti e sospiri, fiumi di lacrime. Nessuna macchia."
+    }
+  },
+  {
+    "numero": 46,
+    "nome_pinyin": "Shēng",
+    "nome_ita": "L'Ascesa (Il Pushing Upward)",
+    "struttura_binaria": "000110",
+    "interpretazione_wiki": "Descrive un progresso lento ma solido, simile alle radici che spingono verso l’alto. La terra sotto il vento indica crescita naturale e supportata. L’I Ching afferma che l’ascendere richiede modestia, costanza e fiducia: non è il momento per forzature, ma per consolidare ogni passo. Aiuti esterni possono favorire l’avanzamento, ma la base resta il lavoro interiore. Favorisce carriera, studio e sviluppo spirituale.",
+    "sentenza": " ASCESA ha supremo successo. Si deve vedere il grand'uomo. Non temere. La partenza verso sud reca buona fortuna.",
+    "immagine": "All'interno della terra, il legno cresce: l'immagine dell'ASCESA. Così l'uomo superiore di carattere devoto accumula piccole cose per raggiungere qualcosa di alto e grande.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Ascesa che incontra fiducia reca grande buona fortuna.",
+      "2": "Nove al secondo posto significa: Se si è sinceri, è propizio portare persino un piccolo dono. Nessuna macchia.",
+      "3": "Nove al terzo posto significa: Si sale in una città vuota.",
+      "4": "Sei al quarto posto significa: Il re gli offre il Monte Ch'i. Buona fortuna. Nessuna macchia.",
+      "5": "Sei al quinto posto significa: La perseveranza reca buona fortuna. Si sale a gradini.",
+      "6": "Sei in alto significa: Ascesa nell'oscurità. È propizio essere ininterrottamente perseveranti."
+    }
+  },
+  {
+    "numero": 47,
+    "nome_pinyin": "Kùn",
+    "nome_ita": "L'Oppressione (L'Esaurimento)",
+    "struttura_binaria": "010110",
+    "interpretazione_wiki": "Indica restrizioni, affaticamento e condizioni soffocanti. Il lago sotto l’acqua rappresenta risorse limitate e mancanza di spazio. L’I Ching consiglia di mantenere integrità e concentrazione: l’oppressione può diventare occasione per approfondire la forza interiore. È inutile cercare soluzioni esteriori immediate; più utile è la disciplina mentale, la pazienza e il recupero delle energie. Quando il centro rimane saldo, le condizioni esterne si scioglieranno.",
+    "sentenza": "OPPRESSIONE. Successo. Perseveranza. Il grand'uomo porta buona fortuna. Nessuna macchia. Quando si ha qualcosa da dire, non viene creduto.",
+    "immagine": "Non vi è acqua nel lago: l'immagine dell'ESAURIMENTO. Così l'uomo superiore rischia la sua vita seguendo la sua volontà.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Si siede oppressi sotto un albero spoglio e si vaga in una valle cupa. Per tre anni non si vede nulla.",
+      "2": "Nove al secondo posto significa: Si è oppressi mentre si è a cibo e bevanda. L'uomo con le fasce scarlatte sulle ginocchia sta arrivando. È propizio offrire un sacrificio. Mettersi in cammino reca sfortuna. Nessuna macchia.",
+      "3": "Sei al terzo posto significa: Un uomo si lascia opprimere dalla pietra e si appoggia a rovi e spine. Entra in casa e non vede sua moglie. Sfortuna.",
+      "4": "Nove al quarto posto significa: Arriva molto quietamente, oppresso in una carrozza d'oro. Umiliazione, ma la fine è raggiunta.",
+      "5": "Nove al quinto posto significa: Il suo naso e i suoi piedi sono tagliati. Oppressione per mano dell'uomo con le fasce viola sulle ginocchia. La gioia arriva dolcemente. È propizio fare offerte e libazioni.",
+      "6": "Sei in alto significa: È oppresso da viticci rampicanti. Si muove incertamente e dice: 'Il movimento reca rimorso'. Se si prova rimorso per questo e si fa un inizio, giunge la buona fortuna."
+    }
+  },
+  {
+    "numero": 48,
+    "nome_pinyin": "Jǐng",
+    "nome_ita": "Il Pozzo",
+    "struttura_binaria": "011010",
+    "interpretazione_wiki": "Simbolo delle risorse fondamentali condivise. L’acqua sotto il legno rappresenta nutrimento che sale dal profondo. L’I Ching considera il pozzo come metafora della stabilità sociale: l’acqua resta costante, ma ogni generazione deve curare il pozzo affinché sia accessibile e puro. Questo esagramma invita a rinnovare strutture, tradizioni e relazioni che sostengono la comunità. È un periodo favorevole alla manutenzione, alla formazione e al servizio pubblico.",
+    "sentenza": "IL POZZO. La città può essere cambiata, ma il pozzo non può essere cambiato. Né diminuisce né aumenta. Vengono e vanno e attingono dal pozzo. Se si arriva quasi all'acqua e la corda non arriva fino in fondo, o il vaso si rompe, ciò reca sfortuna.",
+    "immagine": "Acqua sopra il legno: l'immagine del POZZO. Così l'uomo superiore incoraggia il popolo al lavoro e lo esorta ad aiutarsi a vicenda.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Non si beve il fango del pozzo. Nessun animale viene a un vecchio pozzo.",
+      "2": "Nove al secondo posto significa: Al foro del pozzo si pescano pesci. Il vaso è rotto e perde.",
+      "3": "Nove al terzo posto significa: Il pozzo è pulito, ma nessuno beve da esso. Questo è il dolore del mio cuore, poiché si potrebbe attingere da esso. Se il re fosse chiaro di mente, si potrebbe godere della buona fortuna in comune.",
+      "4": "Sei al quarto posto significa: Il pozzo viene rivestito. Nessuna macchia.",
+      "5": "Nove al quinto posto significa: Nel pozzo vi è una sorgente chiara e fredda da cui si può bere.",
+      "6": "Sei in alto significa: Si attinge dal pozzo senza ostacoli. È affidabile. Suprema buona fortuna."
+    }
+  },
+  {
+    "numero": 49,
+    "nome_pinyin": "Gé",
+    "nome_ita": "La Rivoluzione (La Muta)",
+    "struttura_binaria": "101110",
+    "interpretazione_wiki": "Rappresenta un cambiamento radicale, necessario e tempestivo. Il fuoco sopra il lago indica chiarificazione e rinnovamento. L’I Ching afferma che la rivoluzione autentica deve avere fondamento morale e consenso: solo così trasforma senza distruggere. È importante scegliere il momento giusto, preparare il terreno e comunicare con trasparenza. Il periodo favorisce riforme decisive, abbandono del passato e affermazione di nuovi principi.",
+    "sentenza": "RIVOLUZIONE. Nel tuo proprio giorno sei creduto. Supremo successo, propiziante attraverso la perseveranza. Il rimorso scompare.",
+    "immagine": "Fuoco nel lago: l'immagine della RIVOLUZIONE. Così l'uomo superiore mette in ordine il calendario e rende chiare le stagioni.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Avvolto nella pelle di una mucca gialla.",
+      "2": "Sei al secondo posto significa: Quando arriva il proprio giorno, si può creare la rivoluzione. Iniziare reca buona fortuna. Nessuna macchia.",
+      "3": "Nove al terzo posto significa: Iniziare reca sfortuna. La perseveranza reca pericolo. Quando si è parlato di rivoluzione tre volte, ci si può impegnare e gli uomini gli crederanno.",
+      "4": "Nove al quarto posto significa: Il rimorso scompare. Gli uomini gli credono. Cambiare la forma di governo reca buona fortuna.",
+      "5": "Nove al quinto posto significa: Il grand'uomo cambia come una tigre. Ancora prima di interrogare l'oracolo viene creduto.",
+      "6": "Sei in alto significa: L'uomo superiore cambia come una pantera. L'uomo inferiore fa la muta in superficie. Iniziare reca sfortuna. Rimanere perseveranti reca buona fortuna."
+    }
+  },
+  {
+    "numero": 50,
+    "nome_pinyin": "Dǐng",
+    "nome_ita": "Il Tripode (Il Calderone)",
+    "struttura_binaria": "011101",
+    "interpretazione_wiki": "Simbolo di trasformazione culturale e spirituale. Il fuoco sotto il legno rappresenta la pentola sacra che fonde e raffina. L’I Ching vede il Crogiolo come immagine del rinnovamento profondo: purificare il vecchio per generare forme più elevate. È un momento favorevole a educazione, rituali, creatività e maturazione della personalità. Richiede attenzione al contenuto e alla forma: ciò che si mette nel crogiolo determina ciò che ne uscirà.",
+    "sentenza": "IL CALDERONE. Suprema buona fortuna. Successo.",
+    "immagine": "Fuoco sopra il legno: l'immagine del CALDERONE. Così l'uomo superiore consolida il suo fato rendendo corretta la sua posizione.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Un calderone con le gambe all'insù. Propizia la rimozione di roba stagnante. Si prende una concubina per amore di suo figlio. Nessuna macchia.",
+      "2": "Nove al secondo posto significa: Vi è cibo nel calderone. I miei compagni sono invidiosi, ma non possono farmi male. Buona fortuna.",
+      "3": "Nove al terceiro posto significa: Il manico del calderone è alterato. Si è impediti nel proprio modo di vivere. Il grasso del fagiano non viene mangiato. Una volta che piove, il rimorso è speso. La buona fortuna giunge alla fine.",
+      "4": "Nove al quarto posto significa: Le gambe del calderone sono rotte. Il pasto del principe viene rovesciato e la sua persona viene lordata. Sfortuna.",
+      "5": "Sei al quinto posto significa: Il calderone ha manici gialli, anelli di trasporto d'oro. La perseveranza propizia.",
+      "6": "Nove in alto significa: Il calderone ha anelli di giada. Grande buona fortuna. Nulla che non agisca per propiziare."
+    }
+  },
+  {
+    "numero": 51,
+    "nome_pinyin": "Zhèn",
+    "nome_ita": "L'Eccitante (Lo Sconcerto, il Tuono)",
+    "struttura_binaria": "100100",
+    "interpretazione_wiki": "Rappresenta lo shock improvviso, il movimento che scuote e risveglia. Il Tuono che raddoppia indica energia travolgente che interrompe abitudini e mette alla prova la capacità di reagire. L’I Ching insegna che il timore iniziale è naturale, ma attraverso la compostezza si trasforma in forza e chiarezza. Gli eventi inattesi richiedono presenza mentale, coraggio e ritorno agli obiettivi fondamentali. Questo esagramma favorisce inizi dinamici, risveglio di potenzialità latenti e rinnovamento interiore dopo una scossa.",
+    "sentenza": "LO SCONCERTO porta successo. Lo sconcerto arriva — oh, oh! Parole ridenti — ha, ha! Lo sconcerto atterrisce per cento miglia, e non si lascia cadere il cucchiaio e il calice del sacrificio.",
+    "immagine": "Tuono ripetuto: l'immagine dello SCONCERTO. Così nel timore e nel tremore l'uomo superiore mette in ordine la sua vita ed esamina se stesso.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Lo sconcerto arriva — oh, oh! Poi seguono parole ridenti — ha, ha! Buona fortuna.",
+      "2": "Sei al secondo posto significa: Lo sconcerto porta pericolo. Centomila volte perdi i tuoi tesori e devi arrampicarti sui nove colli. Non andare in loro inseguimento. Dopo sette giorni li riavrai indietro.",
+      "3": "Sei al terceiro posto significa: Lo sconcerto arriva e rende smarriti. Se lo sconcerto sprona all'azione, si rimane liberi da sfortuna.",
+      "4": "Nove al quarto posto significa: Lo sconcerto è impantanato.",
+      "5": "Sei al quinto posto significa: Lo sconcerto va di qui e di là. Pericolo. Tuttavia, nulla va affatto perduto. Eppure vi sono cose da fare.",
+      "6": "Sei in alto significa: Lo sconcerto porta rovina e sguardi terrorizzati intorno. Andare avanti porta sfortuna. Se non ha ancora toccato il proprio corpo ma ha raggiunto prima il vicino, non vi è macchia. I compagni hanno di che parlare."
+    }
+  },
+  {
+    "numero": 52,
+    "nome_pinyin": "Gēn",
+    "nome_ita": "L'Arresto (Il Tenersi Fermo, la Montagna)",
+    "struttura_binaria": "001001",
+    "interpretazione_wiki": "Simbolo della quiete e della stabilità. La doppia montagna raffigura un fermarsi necessario per evitare dispersione. L’I Ching consiglia di immobilizzare volontà e pensieri quando l’azione porterebbe disordine; la quiete non è fuga, ma radicamento consapevole. Meditazione, riposo e disciplina interiore permettono di ristabilire ordine nelle emozioni e di preparare un nuovo movimento. Periodo favorevole ’all’introspezione e al consolidamento.",
+    "sentenza": "TENERSI FERMO. Tenere ferma la propria schiena così che non si sente più il proprio corpo. Va nel suo cortile e non vede la sua gente. Nessuna macchia.",
+    "immagine": "Montagne che stanno vicine l'una all'altra: l'immagine del TENERSI FERMO. Così l'uomo superiore non permette ai suoi pensieri di andare oltre la sua situazione.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Tenere ferme le dita dei piedi. Nessuna macchia. La perseveranza continua propizia.",
+      "2": "Sei al secondo posto significa: Tenere fermi i polpacci. Non può soccorrere colui che egli segue. Il suo cuore non è allegro.",
+      "3": "Nove al terceiro posto significa: Tenere fermi i fianchi. Irrigidirci il sacro. Pericoloso. Il cuore soffoca.",
+      "4": "Sei al quarto posto significa: Tenere fermo il torace. Nessuna macchia.",
+      "5": "Sei al quinto posto significa: Tenere ferme le mascelle. Le parole hanno ordine. Il rimorso scompare.",
+      "6": "Nove in alto significa: Nobile tenersi fermo. Buona fortuna."
+    }
+  },
+  {
+    "numero": 53,
+    "nome_pinyin": "Jiàn",
+    "nome_ita": "Lo Sviluppo (Progresso Graduale)",
+    "struttura_binaria": "001011",
+    "interpretazione_wiki": "Indica crescita lenta, naturale e armoniosa. Il vento sul monte rappresenta un avanzare delicato ma sicuro. L’I Ching evidenzia l’importanza della continuità: ogni progresso deve poggiare su basi solide e rispettare i tempi maturi. È un esagramma associato all’evoluzione delle relazioni, dell’apprendimento e dei progetti a lungo termine. La pazienza produce maturità e risultati duraturi.",
+    "sentenza": "SVILUPPO. La fanciulla viene data in moglie. Buona fortuna. La perseveranza propizia.",
+    "immagine": "Sulla montagna, un albero: l'immagine dello SVILUPPO. Così l'uomo superiore dimora nella dignità e nella virtù, al fine di migliorare i costumi.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: L'oca selvatica si avvicina gradualmente alla riva. Il figlio giovane è in pericolo. Vi sono chiacchiere. Nessuna macchia.",
+      "2": "Sei al secondo posto significa: L'oca selvatica si avvicina gradualmente alla scogliera. Mangiare e bere in pace e concordia. Buona fortuna.",
+      "3": "Nove al terceiro posto significa: L'oca selvatica si avvicina gradualmente all'altopiano. L'uomo va avanti e non torna. La donna porta un figlio ma non lo dà alla luce. Sfortuna. È propizio respingere i ladri.",
+      "4": "Sei al quarto posto significa: L'oca selvatica si avvicina gradualmente all'albero. Forse troverà un ramo piatto. Nessuna macchia.",
+      "5": "Nove al quinto posto significa: L'oca selvatica si avvicina gradualmente alla sommità. Per tre anni la donna non ha figli. Alla fine nulla può ostacolarla. Buona fortuna.",
+      "6": "Nove in alto significa: L'oca selvatica si avvicina gradualmente alle altezze delle nuvole. Le sue piume possono essere usate per la danza sacra. Buona fortuna."
+    }
+  },
+  {
+    "numero": 54,
+    "nome_pinyin": "Guī Mèi",
+    "nome_ita": "La Sposa (La Fanciulla che si Marita)",
+    "struttura_binaria": "101100",
+    "interpretazione_wiki": "Simbolo di circostanze in cui si è costretti ad adattarsi a condizioni non pienamente favorevoli. Il tuono sotto il lago indica tensioni e desideri che non trovano immediata realizzazione. L’I Ching avverte che forzare il destino porta squilibri: è necessario riconoscere i limiti della situazione e agire con modestia. L’esagramma richiama prudenza nelle alleanze e consapevolezza delle proprie priorità.",
+    "sentenza": "LA FANCIULLA CHE SI MARITA. Le imprese recano sfortuna. Nulla che propizi.",
+    "immagine": "Tuono sopra il lago: l'immagine della FANCIULLA CHE SI MARITA. Così l'uomo superiore comprende il transitorio alla luce dell'eternità della fine.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: La fanciulla che si marita come concubina. Uno zoppo che è capace di camminare. Le imprese recano buona fortuna.",
+      "2": "Nove al secondo posto significa: Un orbo che è capace di vedere. La perseveranza di un uomo solitario propizia.",
+      "3": "Sei al terceiro posto significa: La fanciulla che si marita come schiava. Si marita come concubina.",
+      "4": "Nove al quarto posto significa: La fanciulla che si marita prolunga il tempo assegnato. Un matrimonio tardivo arriva a suo tempo.",
+      "5": "Sei al quinto posto significa: Il sovrano I diede sua figlia in sposa. Gli abiti ricamati della principessa non erano così splendidi come quelli della serva. La luna quasi piena reca buona fortuna.",
+      "6": "Sei in alto significa: La donna tiene il cesto, ma non vi sono frutti dentro. L'uomo pugnala la pecora, ma non scorre sangue. Nulla che agisca per propiziare."
+    }
+  },
+  {
+    "numero": 55,
+    "nome_pinyin": "Fēng",
+    "nome_ita": "L'Abbondanza",
+    "struttura_binaria": "101111",
+    "interpretazione_wiki": "Rappresenta pienezza, splendore e apice della manifestazione. Il tuono sotto il fuoco indica energia luminosa che si espande. L’I Ching insegna che nei momenti di massima prosperità si deve mantenere misura, poiché la ricchezza è transitoria. È un tempo ideale per completare progetti, diffondere conoscenza e vivere esperienze intense. Ma occorre evitare eccessi, dispersione o orgoglio.",
+    "sentenza": "ABBONDAZIA ha successo. Il re raggiunge l'abbondanza. Non essere triste. Sii come il sole a mezzogiorno.",
+    "immagine": "Vengono sia il tuono che il lampo: l'immagine dell'ABBONDANZA. Così l'uomo superiore giudica le cause e applica le punizioni.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Quando un uomo incontra il suo sovrano designato, possono stare insieme dieci giorni, e non è un errore. Andare incontro incontra riconoscimento.",
+      "2": "Sei al secondo posto significa: La cortina è di tale pienezza che le stelle polari possono essere viste a mezzogiorno. Attraverso l'andare si incontra diffidenza e odio. Se lo si risveglia attraverso la verità, giunge la buona fortuna.",
+      "3": "Nove al terceiro posto significa: Il sottobosco è di tale abbondanza che le piccole stelle possono essere viste a mezzogiorno. Si rompe il braccio destro. Nessuna macchia.",
+      "4": "Nove al quarto posto significa: La cortina è di tale pienezza che le stelle polari possono essere viste a mezzogiorno. Incontra il suo sovrano, che è di specie analoga. Buona fortuna.",
+      "5": "Sei al quinto posto significa: Linee stanno arrivando, benedizione e fama si avvicinano. Buona fortuna.",
+      "6": "Sei in alto significa: La sua casa è in uno stato di abbondanza. Scherma la sua famiglia. Spia attraverso il cancello e non percepisce più nessuno. Per tre anni non vede nulla. Sfortuna."
+    }
+  },
+  {
+    "numero": 56,
+    "nome_pinyin": "Lǚ",
+    "nome_ita": "Il Viandante",
+    "struttura_binaria": "110100",
+    "interpretazione_wiki": "Esprime condizione di transitorietà, viaggio e adattamento. Il fuoco sul monte indica una luce che si sposta senza radici profonde. L’I Ching suggerisce di essere discreti, rispettosi e disciplinati quando si è in territori non familiari. Il viandante prospera mantenendo sobrietà e attenzione alle relazioni. Favorisce nuove prospettive, apprendimento e flessibilità, ma sconsiglia impegni permanenti.",
+    "sentenza": "IL VIANDANTE. Successo nella piccolezza. La perseveranza reca buona fortuna al viandante.",
+    "immagine": "Fuoco sulla montagna: l'immagine del VIANDANTE. Così l'uomo superiore è lucido e cauto nell'infliggere pene e non prolunga le cause legali.",
+    "linee_mutanti": {
+      "1": "Six all'inizio significa: Se il viandante si occupa di cose triviali, attira la sfortuna su di sé.",
+      "2": "Sei al secondo posto significa: Il viandante arriva in una locanda. Ha con sé la sua proprietà. Conquista la fermezza di un giovane servo.",
+      "3": "Nove al terceiro posto significa: La locanda del viandante brucia. Perde la fermezza del suo giovane servo. Pericolo.",
+      "4": "Nove al quarto posto significa: Il viandante riposa in un rifugio. Ottiene la sua proprietà e un'ascia. Il mio cuore non è allegro.",
+      "5": "Sei al quinto posto significa: Spara a un fagiano. Cade con la prima freccia. Alla fine questo porta sia lode che carica.",
+      "6": "Nove in alto significa: Il nido dell'uccello brucia. Il viandante ride dapprima, poi deve lamentarsi e piangere. Per disattenzione perde la sua mucca. Sfortuna."
+    }
+  },
+  {
+    "numero": 57,
+    "nome_pinyin": "Xùn",
+    "nome_ita": "Il Mite (La Penetrazione, il Vento)",
+    "struttura_binaria": "011011",
+    "interpretazione_wiki": "Rappresenta penetrazione dolce ma persistente, come il vento che pervade ogni spazio. L’I Ching indica che l’influenza più efficace è quella costante e discreta. L’esagramma invita alla diplomazia, alla riflessione e alla capacità di comprendere profondamente le situazioni prima di agire. Favorisce educazione, consulenza, chiarificazione graduale e armonizzazione dei conflitti attraverso la pazienza.",
+    "sentenza": "IL MITE. Successo attraverso ciò che è piccolo. È propizio avere un luogo dove recarsi. È propizio vedere il grand'uomo.",
+    "immagine": "Venti che si susseguono l'uno all'altro: l'immagine del MITE PENETRARE. Così l'uomo superiore diffonde i suoi comandi all'estero e porta a compimento le sue imprese.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Nell'avanzare e nel ritirarsi, la perseveranza di un guerriero propizia.",
+      "2": "Nove al secondo posto significa: Penetrazione sotto il letto. Sacerdoti e maghi sono usati in gran numero. Buona fortuna. Nessuna macchia.",
+      "3": "Nove al terceiro posto significa: Ripetuta penetrazione. Umiliazione.",
+      "4": "Sei al quarto posto significa: Il rimorso svanisce. Durante la caccia vengono catturati tre tipi di selvaggina.",
+      "5": "Nove al quinto posto significa: La perseveranza reca buona fortuna. Il rimorso svanisce. Nulla che non propizi. Nessun inizio, ma una fine. Prima del cambiamento, tre giorni. Dopo il cambiamento, tre giorni. Buona fortuna.",
+      "6": "Nove in alto significa: Penetrazione sotto il letto. Perde la sua proprietà e la sua ascia. La perseveranza reca sfortuna."
+    }
+  },
+  {
+    "numero": 58,
+    "nome_pinyin": "Duì",
+    "nome_ita": "Il Gioioso (Il Lago)",
+    "struttura_binaria": "110110",
+    "interpretazione_wiki": "Simbolo di gioia, comunicazione e apertura. I due laghi rappresentano scambio e armonia. L’I Ching insegna che la vera gioia nasce dalla sincerità e dalla condivisione equilibrata: né euforia superficiale, né repressione. Il periodo favorisce dialogo, amicizia e alleanze basate su affinità. L’esagramma richiama anche responsabilità nella parola, poiché il linguaggio può creare coesione o inganno.",
+    "sentenza": "IL GIOIOSO. Successo. La perseveranza è favorevole.",
+    "immagine": "Laghi che riposano l'uno sull'altro: l'immagine del GIOIOSO. Così l'uomo superiore si unisce ai suoi amici per la discussione e la pratica.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Gioiosa contentezza. Buona fortuna.",
+      "2": "Nove al secondo posto significa: Sincera gioiosità. Buona fortuna. Il rimorso scompare.",
+      "3": "Sei al terceiro posto significa: Gioiosità che arriva. Sfortuna.",
+      "4": "Nove al quarto posto significa: La gioiosità che viene soppesata non è in pace. Dopo essersi sbarazzato degli errori, un uomo ha gioia.",
+      "5": "Nove al quinto posto significa: La sincerità verso influenze disintegranti è pericolosa.",
+      "6": "Sei in alto significa: Gioiosità seducente."
+    }
+  },
+  {
+    "numero": 59,
+    "nome_pinyin": "Huān",
+    "nome_ita": "La Dispersione (La Dissoluzione)",
+    "struttura_binaria": "011001",
+    "interpretazione_wiki": "Rappresenta dissoluzione di rigidità, tensioni o ostacoli. Il vento sopra l’acqua mostra diffusione che libera ciò che era trattenuto. L’I Ching consiglia di unire le forze dopo aver disperso i blocchi: la comunità si rafforza quando i nodi vengono sciolti. È un periodo adatto a risanare divisioni, eliminare attaccamenti nocivi e purificare intenzioni. La guida morale è essenziale per non perdere direzione.",
+    "sentenza": "DISPERSIONE. Successo. Il re si avvicina al suo tempio. È propizio attraversare la grande acqua. La perseveranza propizia.",
+    "immagine": "Il vento corre sull'acqua: l'immagine della DISPERSIONE. Così i re dell'antichità offrirono sacrifici al Signore e costruirono templi.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Porta aiuto con la forza di un cavallo. Buona fortuna.",
+      "2": "Nove al secondo posto significa: Alla dissoluzione si affretta verso ciò che lo sostiene. Il rimorso scompare.",
+      "3": "Sei al terceiro posto significa: Dissolve il suo sé. Nessun rimorso.",
+      "4": "Sei al quarto posto significa: Dissolve il suo legame con il suo gruppo. Suprema buona fortuna. La dispersione conduce a sua volta all'accumulazione.",
+      "5": "Nove al quinto posto significa: Le sue grida ad alta voce sono dissolventi come il sudore. Dissoluzione! Un re dimora senza macchia.",
+      "6": "Nove in alto significa: Dissolve il suo sangue. Partire, tenersi a distanza, uscire, è senza macchia."
+    }
+  },
+  {
+    "numero": 60,
+    "nome_pinyin": "Jié",
+    "nome_ita": "La Limitazione",
+    "struttura_binaria": "100110",
+    "interpretazione_wiki": "Indica la necessità di confini, regole e misura. L’acqua sopra il lago delimita e contenere è ciò che permette di fluire ordinatamente. L’I Ching afferma che ogni valore richiede forma: senza limiti, c’è dispersione; con limiti eccessivi, rigidità. Il periodo è favorevole all’organizzazione, alla gestione del tempo e alle scelte sobrie. La moderazione porta libertà dentro la disciplina.",
+    "sentenza": "LIMITAZIONE. Successo. Una limitazione irritante non deve essere perseguita con perseveranza.",
+    "immagine": "Acqua sopra il lago: l'immagine della LIMITAZIONE. Così l'uomo superiore crea numero e misura, ed esamina la natura della virtù e della condotta corretta.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Non uscire dalla porta e dal cortile è senza macchia.",
+      "2": "Nove al secondo posto significa: Non uscire dal cancello e dal cortile porta sfortuna.",
+      "3": "Sei al terceiro posto significa: Colui che conosce la limitazione avrà motivo di lamentarsi. Nessuna macchia.",
+      "4": "Sei al quarto posto significa: Limitazione contenta. Successo.",
+      "5": "Nove al quinto posto significa: La limitazione dolce reca buona fortuna. L'andare porta stima.",
+      "6": "Sei in alto significa: Limitazione irritante. La perseveranza reca sfortuna. Il rimorso scompare."
+    }
+  },
+  {
+    "numero": 61,
+    "nome_pinyin": "Zhōng Fú",
+    "nome_ita": "La Verità Interiore",
+    "struttura_binaria": "110011",
+    "interpretazione_wiki": "Simbolo di sincerità profonda, fiducia e risonanza. Il vento sopra il lago rappresenta comunicazione autentica che nasce dal cuore. L’I Ching sostiene che la verità interiore unisce, calma e permette decisioni giuste. È un periodo che favorisce accordi, relazioni sincere e ispirazione spirituale. Svaniscono sospetti e si rafforzano legami se l’integrità rimane salda.",
+    "sentenza": "VERITÀ INTERIORE. Maiali e pesci. Buona fortuna. È propizio attraversare la grande acqua. La perseveranza propizia.",
+    "immagine": "Vento sopra il lago: l'immagine della VERITÀ INTERIORE. Così l'uomo superiore discute i casi criminali per ritardare le esecuzioni.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Essere preparati reca buona fortuna. Vi sono disegni segreti, è inquietante.",
+      "2": "Nove al secondo posto significa: Una gru che chiama nell'ombra. Il suo piccolo le risponde. Ho un buon calice. Lo condividerò con te.",
+      "3": "Sei al terceiro posto significa: Trova un compagno. Ora batte il tamburo, ora si ferma. Ora singhiozza, ora canta.",
+      "4": "Sei al quarto posto significa: La luna quasi al colmo. Il cavallo della pariglia va fuori strada. Nessuna macchia.",
+      "5": "Nove al quinto posto significa: Possiede la verità, che unisce insieme. Nessuna macchia.",
+      "6": "Nove in alto significa: Il canto del gallo penetra fino al cielo. La perseveranza reca sfortuna."
+    }
+  },
+  {
+    "numero": 62,
+    "nome_pinyin": "Xiǎo Guò",
+    "nome_ita": "La Preponderanza del Piccolo",
+    "struttura_binaria": "001100",
+    "interpretazione_wiki": "Descrive un tempo in cui piccole attenzioni, prudenza e dettagli sono più importanti delle grandi imprese. Il tuono sotto la montagna indica movimento contenuto. L’I Ching raccomanda umiltà, precisione e cautela: agire troppo in grande porta errori. Favorisce compiti minuti, aggiustamenti, diplomazia e prudenza in viaggio.",
+    "sentenza": "PREPONDERANZA DEL PICCOLO. Successo. La perseveranza propizia. Si possono fare piccole cose; non si dovrebbero fare grandi cose. L'uccello volante porta il messaggio: non è bene sforzarsi verso l'alto, è bene rimanere in basso. Grande buona fortuna.",
+    "immagine": "Tuono sulla montagna: l'immagine della PREPONDERANZA DEL PICCOLO. Così nella sua condotta l'uomo superiore dà la preponderanza alla reverenza, nel lutto dà la preponderanza al dolore, nelle sue spese dà la preponderanza alla parsimonia.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: L'uccello incontra sfortuna volando.",
+      "2": "Sei al secondo posto significa: Passa accanto al suo avo e incontra la sua ava. Non raggiunge il suo principe e incontra il funzionario. Nessuna macchia.",
+      "3": "Nove al terceiro posto significa: Se non si è estremamente cauti, qualcuno potrebbe arrivare da dietro e colpirlo. Sfortuna.",
+      "4": "Nove al quarto posto significa: Nessuna macchia. Lo incontra senza superarlo. L'andare porta pericolo. Bisogna essere in guardia. Non agire. Sii costantemente perseverante.",
+      "5": "Sei al quinto posto significa: Nubi dense, nessuna pioggia dal nostro territorio occidentale. Il principe spara e colpisce colui che è nella caverna.",
+      "6": "Sei in alto significa: Lo supera senza incontrarlo. L'uccello volante lo lascia. Sfortuna."
+    }
+  },
+  {
+    "numero": 63,
+    "nome_pinyin": "Jì Jì",
+    "nome_ita": "Dopo il Compimento",
+    "struttura_binaria": "101010",
+    "interpretazione_wiki": "Simbolo dell’ordine realizzato. L’acqua sopra il fuoco indica equilibrio dinamico concluso con successo. L’I Ching avverte però che dopo il compimento sorge il rischio di disattenzione: mantenere l’armonia richiede vigilanza costante. È un buon momento per stabilizzare risultati, perfezionare processi e prevenire nuovi squilibri.",
+    "sentenza": "DOPO IL COMPIMENTO. Successo nelle piccole cose. La perseveranza propizia. All'inizio buona fortuna, alla fine disordine.",
+    "immagine": "Acqua sopra il fuoco: l'immagine della condizione in DOPO IL COMPIMENTO. Così l'uomo superiore prende pensiero della sfortuna e si arma contro di essa in anticipo.",
+    "linee_mutanti": {
+      "1": "Nove all'inizio significa: Rompe le sue ruote. Si bagna la coda nell'acqua. Nessuna macchia.",
+      "2": "Sei al secondo posto significa: La donna perde la tenda della sua carrozza. Non correre dietro ad essa; al settimo giorno la riceverai.",
+      "3": "Nove al terceiro posto significa: L'Illustre Antenato disciplina il Paese del Diavolo. Dopo tre anni lo conquista. Gli individui inferiori non devono essere impiegati.",
+      "4": "Sei al quarto posto significa: Gli abiti più fini si riducono in cenci. Sii prudente tutto il giorno.",
+      "5": "Nove al quinto posto significa: Il vicino a est che sgozza un bue non ottiene tanta vera felicità quanto il vicino a ovest con la sua piccola offerta.",
+      "6": "Sei in alto significa: Si ritrova con la testa nell'acqua. Pericolo."
+    }
+  },
+  {
+    "numero": 64,
+    "nome_pinyin": "Wēi Jì",
+    "nome_ita": "Prima del Compimento",
+    "struttura_binaria": "010101",
+    "interpretazione_wiki": "Indica transizione e incompiutezza creativa. Il fuoco sopra l’acqua simboleggia un ordine non ancora stabilito. L’I Ching dice che prima del compimento serve prudenza, flessibilità e cura dei dettagli. Ogni avanzamento deve essere ponderato; l’esito dipende dall’atteggiamento interiore. Periodo ideale per preparare, correggere e migliorare senza precipitazione.",
+    "sentenza": "PRIMA DEL COMPIMENTO. Successo. Ma se la volpicina, dopo aver quasi completato l'attraversamento, si bagna la coda nell'acqua, non vi è nulla che propizi.",
+    "immagine": "Fuoco sopra l'acqua: l'immagine della condizione prima della transizione. Così l'uomo superiore è cauto nella differenziazione delle cose, affinché ciascuna trovi il suo posto.",
+    "linee_mutanti": {
+      "1": "Sei all'inizio significa: Si bagna la coda nell'acqua. Umiliante.",
+      "2": "Nove al secondo posto significa: Frenare le sue ruote. La perseveranza reca buona fortuna.",
+      "3": "Sei al terceiro posto significa: Prima del compimento, l'attacco porta sfortuna. È propizio attraversare la grande acqua.",
+      "4": "Nove al quarto posto significa: La perseveranza reca buona fortuna. Il rimorso scompare. Sconcerto, così da disciplinare il Paese del Diavolo. Per tre anni, grandi regni vengono ricompensati.",
+      "5": "Sei al quinto posto significa: La perseveranza reca buona fortuna. Nessun rimorso. La luce dell'uomo superiore è vera. Buona fortuna.",
+      "6": "Nove in alto significa: Vi è bevuta di vino in autentica confidenza. Nessuna macchia. Ma se ci si bagna la testa, la si perde, in verità."
+    }
+  }
+]

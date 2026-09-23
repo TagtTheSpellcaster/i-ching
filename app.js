@@ -11,14 +11,14 @@ const ideograms = [
 ];
 
 const trigramsData = {
-  "1": { name: "Qián (Cielo)", meaning: "Il Creativo: forza, movimento inesauribile, leadership." },
-  "2": { name: "Kūn (Terra)", meaning: "Il Ricettivo: devozione, accoglienza, nutrimento." },
-  "3": { name: "Zhèn (Tuono)", meaning: "L'Eccitante: scossa, risveglio, dinamismo improvviso." },
-  "4": { name: "Kǎn (Acqua)", meaning: "L'Abissale: profondità, fluidità, superamento degli ostacoli." },
-  "5": { name: "Lí (Fuoco)", meaning: "Il Luminoso: chiarezza, intelligenza, consapevolezza." },
-  "6": { name: "Gèn (Montagna)", meaning: "L'Arresto: quiete, stabilità, fermarsi al momento giusto." },
-  "7": { name: "Xùn (Vento)", meaning: "Il Mite: flessibilità, penetrazione graduale, diplomazia." },
-  "8": { name: "Duì (Lago)", meaning: "Il Gioioso: apertura, comunicazione, scambio sereno." }
+  "1": { name: "Qián (乾) — Il Cielo / Il Creativo", image: "Tre linee intere (Yang puro).", meaning: "Forza, movimento inesauribile, creatività, luce, leadership, fermezza." },
+  "2": { name: "Kūn (坤) — La Terra / Il Ricettivo", image: "Tre linee spezzate (Yin puro).", meaning: "Devozione, accoglienza, nutrimento, docilità, la capacità di sostenere." },
+  "3": { name: "Zhèn (震) — Il Tuono / L'Eccitante", image: "Un tratto intero sotto due spezzati.", meaning: "Scossa, movimento improvviso, risveglio, energia che irrompe, dinamismo." },
+  "4": { name: "Kǎn (坎) — L'Acqua / L'Abissale", image: "Un tratto spezzato racchiuso tra due interi.", meaning: "Pericolo, profondità, flusso che supera gli ostacoli, fluidità, prova interiore." },
+  "5": { name: "Lí (離) — Il Fuoco / Il Luminoso", image: "Un tratto spezzato racchiuso tra due interi.", meaning: "Chiarezza, luce, intelligenza, consapevolezza, discernimento." },
+  "6": { name: "Gèn (艮) — La Montagna / L'Arresto", image: "Un tratto intero sopra due spezzati.", meaning: "Quiete, stabilità, fermarsi al momento giusto per evitare la dispersione." },
+  "7": { name: "Xùn (巽) — Il Vento / Il Mite", image: "Un tratto spezzato sotto due interi.", meaning: "Flessibilità, penetrazione graduale e costante, diplomazia, pazienza." },
+  "8": { name: "Duì (兌) — Il Lago / Il Gioioso", image: "Un tratto spezzato sopra due interi.", meaning: "Apertura, comunicazione, gioia condivisa, soddisfazione, scambio sereno." }
 };
 
 // Tabella di corrispondenza fissa: ID Esagramma (1-64) -> [Trigramma Inferiore (1-8), Trigramma Superiore (1-8)]
@@ -190,15 +190,18 @@ function displayOracleResult(hex) {
     <h2>Esagramma Ottenuto: N. ${hex.numero} — ${hex.nome_ita} <span class="ideogram">${ideogram}</span> (${hex.nome_pinyin})</h2>
   `;
 
-  if (trigrams) {
+if (trigrams) {
     html += `
       <div class="trigrams-info">
-        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name} — <em>${trigrams.lower.meaning}</em></p>
-        <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name} — <em>${trigrams.upper.meaning}</em></p>
+        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name}</p>
+        <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.lower.image}<br><em>Significato:</em> ${trigrams.lower.meaning}</p>
+        
+        <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name}</p>
+        <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.upper.image}<br><em>Significato:</em> ${trigrams.upper.meaning}</p>
       </div>
     `;
   }
-
+  
   html += `
     <p><strong>Sentenza:</strong> ${hex.sentenza}</p>
     <p><strong>Immagine:</strong> ${hex.immagine}</p>
@@ -256,15 +259,18 @@ function openModal(hex) {
     <h2>${hex.numero}. ${hex.nome_ita} <span class="ideogram">${ideogram}</span> (${hex.nome_pinyin})</h2>
   `;
 
-  if (trigrams) {
+if (trigrams) {
     html += `
       <div class="trigrams-info">
-        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name} — <em>${trigrams.lower.meaning}</em></p>
-        <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name} — <em>${trigrams.upper.meaning}</em></p>
+        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name}</p>
+        <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.lower.image}<br><em>Significato:</em> ${trigrams.lower.meaning}</p>
+        
+        <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name}</p>
+        <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.upper.image}<br><em>Significato:</em> ${trigrams.upper.meaning}</p>
       </div>
     `;
   }
-
+  
   html += `
     <p><strong>Sentenza:</strong> ${hex.sentenza}</p>
     <p><strong>Immagine:</strong> ${hex.immagine}</p>

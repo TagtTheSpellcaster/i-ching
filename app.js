@@ -27,14 +27,14 @@ const ideograms = [
 
 // Mappa diretta dei codici binari a 3 bit dei trigrammi (dal basso verso l'alto)
 const trigramsBitsMap = {
-  "111": { id: "1", name: "Qián (乾) — Il Cielo / Il Creativo", image: "Tre linee intere (Yang puro).", meaning: "Forza, movimento inesauribile, creatività, luce, leadership, fermezza." },
-  "000": { id: "2", name: "Kūn (坤) — La Terra / Il Ricettivo", image: "Tre linee spezzate (Yin puro).", meaning: "Devozione, accoglienza, nutrimento, docilità, la capacità di sostenere." },
-  "001": { id: "3", name: "Zhèn (震) — Il Tuono / L'Eccitante", image: "Un tratto intero sotto due spezzati.", meaning: "Scossa, movimento improvviso, risveglio, energia che irrompe, dinamismo." },
-  "010": { id: "4", name: "Kǎn (Acqua) — L'Abissale", image: "Un tratto spezzato racchiuso tra due interi.", meaning: "Pericolo, profondità, flusso che supera gli ostacoli, fluidità, prova interiore." },
-  "101": { id: "5", name: "Lí (Fuoco) — Il Luminoso", image: "Un tratto spezzato racchiuso tra due interi.", meaning: "Chiarezza, luce, intelligenza, consapevolezza, discernimento." },
-  "100": { id: "6", name: "Gèn (Montagna) — L'Arresto", image: "Un tratto intero sopra due spezzati.", meaning: "Quiete, stabilità, fermarsi al momento giusto per evitare la dispersione." },
-  "011": { id: "7", name: "Xùn (Vento) — Il Mite", image: "Un tratto spezzato sotto due interi.", meaning: "Flessibilità, penetrazione graduale e costante, diplomazia, pazienza." },
-  "110": { id: "8", name: "Duì (Lago) — Il Gioioso", image: "Un tratto spezzato sopra due interi.", meaning: "Apertura, comunicazione, gioia condivisa, soddisfazione, scambio sereno." }
+  "111": { id: "1", name: "Qián", ideogram: "乾", translation: "Il Cielo / Il Creativo", image: "Tre linee intere (Yang puro).", meaning: "Forza, movimento inesauribile, creatività, luce, leadership, fermezza." },
+  "000": { id: "2", name: "Kūn", ideogram: "坤", translation: "La Terra / Il Ricettivo", image: "Tre linee spezzate (Yin puro).", meaning: "Devozione, accoglienza, nutrimento, docilità, la capacità di sostenere." },
+  "001": { id: "3", name: "Zhèn", ideogram: "震", translation: "Il Tuono / L'Eccitante", image: "Un tratto intero sotto due spezzati.", meaning: "Scossa, movimento improvviso, risveglio, energia che irrompe, dinamismo." },
+  "010": { id: "4", name: "Kǎn", ideogram: "坎", translation: "L'Acqua / L'Abissale", image: "Un tratto spezzato racchiuso tra due interi.", meaning: "Pericolo, profondità, flusso che supera gli ostacoli, fluidità, prova interiore." },
+  "101": { id: "5", name: "Lí", ideogram: "離", translation: "Il Fuoco / Il Luminoso", image: "Un tratto spezzato racchiuso tra due interi.", meaning: "Chiarezza, luce, intelligenza, consapevolezza, discernimento." },
+  "100": { id: "6", name: "Gèn", ideogram: "艮", translation: "La Montagna / L'Arresto", image: "Un tratto intero sopra due spezzati.", meaning: "Quiete, stabilità, fermarsi al momento giusto per evitare la dispersione." },
+  "011": { id: "7", name: "Xùn", ideogram: "巽", translation: "Il Vento / Il Mite", image: "Un tratto spezzato sotto due interi.", meaning: "Flessibilità, penetrazione graduale e costante, diplomazia, pazienza." },
+  "110": { id: "8", name: "Duì", ideogram: "兌", translation: "Il Lago / Il Gioioso", image: "Un tratto spezzato sopra due interi.", meaning: "Apertura, comunicazione, gioia condivisa, soddisfazione, scambio sereno." }
 };
 
 const hexagramTrigramsMap = [
@@ -173,10 +173,10 @@ function displayOracleResult(hex) {
 if (trigrams) {
     html += `
       <div class="trigrams-info">
-        <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name}</p>
+        <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name} <span class="ideogram">${trigrams.upper.ideogram}</span> — ${trigrams.upper.translation}</p>
         <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.upper.image}<br><em>Significato:</em> ${trigrams.upper.meaning}</p>
         
-        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name}</p>
+        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name} <span class="ideogram">${trigrams.lower.ideogram}</span> — ${trigrams.lower.translation}</p>
         <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.lower.image}<br><em>Significato:</em> ${trigrams.lower.meaning}</p>
       </div>
     `;
@@ -242,10 +242,10 @@ function openModal(hex) {
 if (trigrams) {
     html += `
       <div class="trigrams-info">
-        <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name}</p>
+        <p><strong>Trigramma superiore (esterno):</strong> ${trigrams.upper.name} <span class="ideogram">${trigrams.upper.ideogram}</span> — ${trigrams.upper.translation}</p>
         <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.upper.image}<br><em>Significato:</em> ${trigrams.upper.meaning}</p>
         
-        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name}</p>
+        <p><strong>Trigramma inferiore (interno):</strong> ${trigrams.lower.name} <span class="ideogram">${trigrams.lower.ideogram}</span> — ${trigrams.lower.translation}</p>
         <p style="margin-left: 1rem;"><em>Immagine:</em> ${trigrams.lower.image}<br><em>Significato:</em> ${trigrams.lower.meaning}</p>
       </div>
     `;
